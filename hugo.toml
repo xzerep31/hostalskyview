@@ -1,0 +1,5 @@
+baseURL = 'http://hostalskyview.com/'
+languageCode = 'en-us'
+title = 'Hostal: Sky View'
+defaultContentLanguage = 'es'
+
