@@ -1,0 +1,17 @@
+- id: Home
+  translation: Inicio
+
+- id: About
+  translation: Acerca de Nosotros
+
+- id: Services
+  translation: Servicios
+
+- id: Rooms
+  translation: Habitaciones
+
+- id: Booking
+  translation: Reserva
+
+- id: contactUs
+  translation: Contáctenos

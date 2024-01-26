@@ -1,5 +1,9 @@
 baseURL = 'http://hostalskyview.com/'
 languageCode = 'en-us'
-title = 'Hostal: Sky View'
+title = 'Sky View'
 defaultContentLanguage = 'es'
 
+[params]
+    defaultDescription = ""
+    defaultKeywords = ["Hostal", "Bar", "Sky View", "Room", "Rent Room", "Habitación", "Renta", "Descanso"]
+    
