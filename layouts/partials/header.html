@@ -10,20 +10,20 @@
                 <div class="col-lg-7 px-5 text-start">
                     <div class="h-100 d-inline-flex align-items-center py-2 me-4">
                         <i class="fa fa-envelope text-primary me-2"></i>
-                        <p class="mb-0">info@example.com</p>
+                        <p class="mb-0">{{ .Site.Params.email }}</p>
                     </div>
                     <div class="h-100 d-inline-flex align-items-center py-2">
                         <i class="fa fa-phone-alt text-primary me-2"></i>
-                        <p class="mb-0">+012 345 6789</p>
+                        <p class="mb-0">{{ .Site.Params.phone }}</p>
                     </div>
                 </div>
                 <div class="col-lg-5 px-5 text-end">
                     <div class="d-inline-flex align-items-center py-2">
-                        <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                        <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="" href=""><i class="fab fa-youtube"></i></a>
+                        {{ with .Site.Params.social }}
+                            {{ range sort . "weight" }}
+                                <a class="me-3" href="{{ .URL }}"><i class="{{ .icon }}"></i></a>
+                            {{ end }}
+                        {{ end }}
                     </div>
                 </div>
             </div>
@@ -36,13 +36,16 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="/" class="nav-item nav-link active">{{ i18n "Home" }}</a>
-                        <a href="{{ "about" | relURL }}" class="nav-item nav-link">{{ i18n "About" }}</a>
-                        <a href="{{ "services" | relURL }}" class="nav-item nav-link">{{ i18n "Services" }}</a>
-                        <a href="{{ "rooms" | relURL }}" class="nav-item nav-link">{{ i18n "Rooms" }}</a>
-                        <a href="{{ "booking" | relURL }}" class="nav-item nav-link">{{ i18n "Booking" }}</a>
-                        <a href="{{ "contact" | relURL }}" class="nav-item nav-link">{{ i18n "contactUs" }}</a>
-                    </div>
+                        {{ with site.Menus.main }}
+                            {{ range . }}
+                                {{ if $.IsMenuCurrent .Menu .}}
+                                    <a href="{{ .URL }}" class="nav-item nav-link active">{{ i18n .Name }}</a>
+                                {{ else }}
+                                    <a href="{{ .URL }}" class="nav-item nav-link">{{ i18n .Name }}</a>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                        </div>
                 </div>
             </nav>
         </div>

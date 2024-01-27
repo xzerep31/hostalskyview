@@ -90,7 +90,10 @@ body {
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: var(--tan);
+    color: #fff;
+    background-color: var(--tan);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 .btn-square {
@@ -132,7 +135,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--cool-gray);
 }
 
 @media (max-width: 991.98px) {
@@ -189,7 +192,7 @@ body {
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: var(--light);
+    color: var(--tan);
 }
 
 .booking {
@@ -241,13 +244,13 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: #FFFFFF;
+    background: var(--tan);
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: var(--green-blue);
 }
 
 .service-item .service-icon {
@@ -266,7 +269,7 @@ body {
 .service-item:hover i,
 .service-item:hover h5,
 .service-item:hover p {
-    color: #FFFFFF !important;
+    color: var(--tan) !important;
 }
 
 

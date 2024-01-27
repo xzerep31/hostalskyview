@@ -2,8 +2,73 @@ baseURL = 'http://hostalskyview.com/'
 languageCode = 'en-us'
 title = 'Sky View'
 defaultContentLanguage = 'es'
+paginate = 20
+canonifyUrls = true
 
 [params]
     defaultDescription = ""
     defaultKeywords = ["Hostal", "Bar", "Sky View", "Room", "Rent Room", "Habitación", "Renta", "Descanso"]
+    author = "Pedro Victor Navarrete Alejo"
+    info = ""
     
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+
+    address = "120, Calle Borrell, entre calle Santo Domingo y calle San Procopio, Trinidad 62600"
+    phone = "(+53 5) 359-2372"
+    email = "hostalskyview@gmail.com"
+
+# Social links
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 1
+    url = "https://facebook.com/hostalskyview/"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 2
+    url = "https://instagram.com/hostalskyview"
+[[params.social]]
+    name = "Pinterest"
+    icon = "fab fa-pinterest"
+    weight = 3
+    url = "https://pinterest.com/hostalskyview/"
+[[params.social]]
+    name = "Gmail"
+    icon = "fa fa-envelope"
+    weight = 4
+    url = "mailto:hostlskyview@gmail.com"
+
+# Menu links
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url  = "/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Services"
+    weight = 3
+    url = "/services/"
+[[menu.main]]
+    name = "Rooms"
+    weight = 4
+    url = "/rooms/"
+[[menu.main]]
+    name = "Booking"
+    weight = 5
+    url = "/booking/"
+[[menu.main]]
+    name = "Contact"
+    weight = 6
+    url = "/contact/"

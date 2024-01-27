@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
 
 <head>
     {{ partial "head" . }}
@@ -27,10 +27,6 @@
             {{ .Content }}
         {{ end }}
 
-        <!-- Newsletter Start-->
-        {{ partial "newsletter" . }}
-        <!-- Newsletter End-->
-        
         <!-- Footer Start -->
         {{ partial "footer" .}}
         <!-- Footer End -->    

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
 
 <head>
     {{ partial "head" . }}
@@ -16,7 +16,7 @@
         <!-- Header End -->    
         
         <!-- Carousel Start -->
-        {{ partial "page_header" .}}
+        {{ partial "carousel" .}}
         <!-- Carousel End -->
         
         <!-- Booking Start -->
@@ -44,10 +44,6 @@
         <!-- Team Start -->
         {{ partial "teams" . }}
         <!-- Team End -->   
-
-        <!-- Newsletter Start-->
-        {{ partial "newsletter" . }}
-        <!-- Newsletter End-->
 
         <!-- Footer Start -->
         {{ partial "footer" .}}
