@@ -1,17 +1,56 @@
 - id: Home
-  translation: Inicio
+  translation: "Inicio"
 
 - id: About
-  translation: Acerca de Nosotros
+  translation: "Acerca de Nosotros"
 
 - id: Services
-  translation: Servicios
+  translation: "Servicios"
 
 - id: Rooms
-  translation: Habitaciones
+  translation: "Habitaciones"
 
 - id: Booking
-  translation: Reserva
+  translation: "Reserva"
 
 - id: contactUs
-  translation: Contáctenos
+  translation: "Contáctenos"
+
+- id: checkIn
+  translation: "Fecha de llegada"
+
+- id: checkOut
+  translation: "Fecha de salida"
+
+- id: Adults
+  translation: "Cantidad de Adultos"
+
+- id: Childs
+  translation: "Cantidad de Niños"
+
+- id: contactName
+  translation: "Tu nombre"
+
+- id: contactMail
+  translation: "Tu Correo"
+
+- id: bookNow
+  translation: "Reserva Ahora"
+
+- id: selectAroom
+  translation: "Selecciona una habitación"
+
+- id: specialRequest
+  translation: "Requerimientos especiales"
+
+- id: Room
+  translation: "Habitación"
+
+- id: subject
+  translation: "Asunto"
+
+- id: leaveMessage
+  translation: "Deje un mensaje"
+
+- id: sendMessage
+  translation: "Enviar Mensaje"

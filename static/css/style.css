@@ -53,10 +53,6 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
     font-weight: 600 !important;
 }
 
-body {
-    font-family: 'Gabriola';
-}
-
 .back-to-top {
     position: fixed;
     display: none;

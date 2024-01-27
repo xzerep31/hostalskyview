@@ -25,6 +25,8 @@ canonifyUrls = true
     phone = "(+53 5) 359-2372"
     email = "hostalskyview@gmail.com"
 
+    formsubmit_action = "https://formsubmit.co/hostalskyview@gmail.com"
+
 # Social links
 [[params.social]]
     name = "Facebook"
@@ -69,6 +71,12 @@ canonifyUrls = true
     weight = 5
     url = "/booking/"
 [[menu.main]]
-    name = "Contact"
+    name = "contactUs"
     weight = 6
     url = "/contact/"
+
+[params.carouselHome]
+    items = 2
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
