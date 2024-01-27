@@ -74,9 +74,3 @@ canonifyUrls = true
     name = "contactUs"
     weight = 6
     url = "/contact/"
-
-[params.carouselHome]
-    items = 2
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
