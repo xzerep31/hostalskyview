@@ -32,26 +32,21 @@ canonifyUrls = true
     name = "Facebook"
     icon = "fab fa-facebook"
     weight = 1
-    url = "https://facebook.com/hostalskyview/"
+    url = "https://www.facebook.com/profile.php?id=61555910130082"
 [[params.social]]
     name = "Instagram"
     icon = "fab fa-instagram"
     weight = 2
-    url = "https://instagram.com/hostalskyview"
-[[params.social]]
-    name = "Pinterest"
-    icon = "fab fa-pinterest"
-    weight = 3
-    url = "https://pinterest.com/hostalskyview/"
+    url = "https://www.instagram.com/skyview2421/"
 [[params.social]]
     name = "Gmail"
     icon = "fa fa-envelope"
-    weight = 4
+    weight = 3
     url = "mailto:hostlskyview@gmail.com"
 [[params.social]]
     name = "TripAdvisor"
     icon = "fab fa-tripadvisor"
-    weight = 5
+    weight = 4
     url = "https://www.tripadvisor.com/Hotel_Review-g285731-d12176965-Reviews-Hostal_Sky_View_TRINIDAD-Trinidad_Sancti_Spiritus_Province_Cuba.html?m=19905"
 
 # Menu links

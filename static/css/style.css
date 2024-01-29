@@ -57,6 +57,10 @@ body {
     background-color: var(--dark) !important;
 }
 
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
 .text-primary {
     color: var(--primary) !important;
 }
@@ -376,7 +380,7 @@ body {
 }
 
 .team-item:hover .bg-primary i {
-    color: var(--secondary) !important;
+    color: var(--primary) !important;
 }
 
 
