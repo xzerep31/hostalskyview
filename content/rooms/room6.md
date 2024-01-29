@@ -6,7 +6,7 @@ weight: 5
 featuredImage: "/imgs/rooms/room6.jpg"
 bed: 3
 bath: 1
-wifi: "off"
+wifi: "on"
 description: "Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar"
 images:
     - /imgs/rooms/room6/Sin título-17.jpg

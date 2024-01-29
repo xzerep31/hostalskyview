@@ -3,12 +3,12 @@
         <div class="row g-5">
             <div class="col-md-6 col-lg-4">
                 <div class="bg-primary rounded p-4">
-                    <a href="/"><h1 class="text-white text-uppercase mb-3">Sky View</h1></a>
+                    <a href="/"><img src="{{ "imgs/cover-page.jpg" | relURL }}" alt="Sky View" style="background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5));"></a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <h6 class="section-title text-start text-primary text-uppercase mb-4">{{ i18n "contactUs" }}</h6>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>{{ .Site.Params.address }}</p>
+                <p class="mb-2"><i class="fa fa-map-signs me-3"></i>{{ .Site.Params.address }}</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>{{ .Site.Params.phone }}</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>{{ .Site.Params.email }}</p>
                 <div class="d-flex pt-2">

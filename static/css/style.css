@@ -34,15 +34,39 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
     src: url("fonts/fontawesome-webfont.ttf");
 }
 
+/********** Template CSS **********/
 :root {
-    --primary: #FEA116;
-    --light: #F1F8FF;
-    --dark: #0F172B;
-    --green-blue: #3265A7ff;
-    --cool-gray: #81889Cff;
-    --redwood: #A56359ff;
-    --tan: #C2A583ff;
-    --prussian-blue: #1B3450ff;
+    --dark: #060409ff;
+    --light: #5E616Fff;
+    --primary: #3265A9ff;
+}
+
+
+/*** Body ***/
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar h1{
+    font-family: 'Gabriola';
+    font-size: 4.3rem;
+    color: var(--primary);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-light {
+    color: var(--light) !important; 
+}
+
+.text-dark {
+    color: var(--dark) !important;
 }
 
 .fw-medium {
@@ -84,12 +108,24 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
     transition: .5s;
 }
 
+.btn.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn.btn-primary,
+.btn.btn-dark,
+.btn.light,
+.btn.btn-secondary {
+    border-color: var(--dark);
+}
+
+.btn.btn-dark {
+    background-color: var(--light);
+}
+
 .btn.btn-primary,
 .btn.btn-secondary {
-    color: #fff;
-    background-color: var(--tan);
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
+    color: #FFFFFF;
 }
 
 .btn-square {
@@ -131,7 +167,7 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--cool-gray);
+    color: var(--primary);
 }
 
 @media (max-width: 991.98px) {
@@ -178,17 +214,23 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
 }
 
 .page-header {
-    background-position: bottom center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .page-header-inner {
-    background: rgba(15, 23, 43, .3 );
+    background: rgba(15, 23, 43, .7);
+    height: 640px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: var(--tan);
+    color: var(--light);
 }
 
 .booking {
@@ -240,13 +282,13 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: var(--tan);
+    background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
 }
 
 .service-item:hover {
-    background: var(--green-blue);
+    background: var(--primary);
 }
 
 .service-item .service-icon {
@@ -265,10 +307,8 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
 .service-item:hover i,
 .service-item:hover h5,
 .service-item:hover p {
-    color: var(--tan) !important;
+    color: #FFFFFF !important;
 }
-
-
 
 /*** Testimonial ***/
 .testimonial {
@@ -348,8 +388,8 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
 
 .footer {
     position: relative;
-    margin-top: -110px;
-    padding-top: 180px;
+    margin-top: 0px;
+    padding-top: 80px;
 }
 
 .footer .btn.btn-social {
@@ -414,56 +454,4 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
     margin-right: 0;
     padding-right: 0;
     border-right: none;
-}
-
-.circle-404 {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -200px;
-    border: 2px solid var(--bgc-1);
-    box-sizing: border-box;
-    border-radius: 300px;
-    box-shadow:
-        3px 3px 8px 3px rgba(100, 100, 100, 0.2),
-        -2px -2px 10px 8px var(--bgc-1);
-}
-.c404 {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    border: 10px solid var(--primary);
-    box-shadow: 2px 2px 5px 3px rgba(var(--primary-rgb), .3),
-    2px 2px 8px 3px rgba(var(--primary-rgb), .3) inset;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-}
-.titleroot-404 {
-    width: 450px;
-    height: 450px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -225px;
-    margin-left: -225px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: -1;
-    animation: circle ease-in-out 1s infinite alternate;
-}
-.title-404 {
-    color: var(--color);
-    line-height: 200px;
-    font-size: 150px;
-    text-shadow:
-        -3px -3px 5px var(--bgc-1),
-        3px 3px 5px rgba(0, 0, 0, .3);
 }

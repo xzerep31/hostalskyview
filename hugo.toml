@@ -48,6 +48,11 @@ canonifyUrls = true
     icon = "fa fa-envelope"
     weight = 4
     url = "mailto:hostlskyview@gmail.com"
+[[params.social]]
+    name = "TripAdvisor"
+    icon = "fab fa-tripadvisor"
+    weight = 5
+    url = "https://www.tripadvisor.com/Hotel_Review-g285731-d12176965-Reviews-Hostal_Sky_View_TRINIDAD-Trinidad_Sancti_Spiritus_Province_Cuba.html?m=19905"
 
 # Menu links
 [[menu.main]]

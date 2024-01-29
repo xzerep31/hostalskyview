@@ -1,8 +1,18 @@
  <!-- Page Header Start -->
- <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ "imgs/cover-page.jpg" | relURL }});">
+ <div class="container-fluid page-header mb-5 p-0" style="background-image: url({{ "imgs/fachada.jpg" | relURL }});">
     <div class="container-fluid page-header-inner py-5">
-        <div class="container text-center pb-5">
-      
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" >
+                {{ if .IsHome }}
+                    <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Hostal</h6>
+                    <h1 class="display-3 text-light mb-4 animated slideInDown">Sky View</h1>
+                {{ else }}
+                    <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Hostal | Sky View </h6>
+                    <h1 class="display-3 text-light mb-4 animated slideInDown">{{ .Title }}</h1>
+                {{ end }}
+                <a href="{{"rooms" | relURL }}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">{{ i18n "ourRooms" }}</a>
+                <a href="{{"booking" | relURL }}" class="btn btn-light py-md-3 px-md-5 animated slideInRight">{{ i18n "bookRoom" }}</a>
+            </div>
         </div>
     </div>
 </div>
