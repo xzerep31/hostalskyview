@@ -21,7 +21,7 @@
                     <div class="d-inline-flex align-items-center py-2">
                         {{ with .Site.Params.social }}
                             {{ range sort . "weight" }}
-                                <a class="me-3" href="{{ .URL }}"><i class="{{ .icon }}"></i></a>
+                                <a class="me-3" href="{{ .url }}"><i class="{{ .icon }}"></i></a>
                             {{ end }}
                         {{ end }}
                     </div>

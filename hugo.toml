@@ -74,3 +74,6 @@ canonifyUrls = true
     name = "contactUs"
     weight = 6
     url = "/contact/"
+
+[params.rooms]
+    enable = true
