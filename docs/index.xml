@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sky View</title>
+    <link>http://hostalskyview.com/</link>
+    <description>Recent content on Sky View</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jan 2024 14:37:14 -0500</lastBuildDate>
+    <atom:link href="http://hostalskyview.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Habitación 1</title>
+      <link>http://hostalskyview.com/rooms/room1/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://hostalskyview.com/rooms/room1/</guid>
+      <description>Descripción Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar</description>
+    </item>
+    <item>
+      <title>Habitación 2</title>
+      <link>http://hostalskyview.com/rooms/room2/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://hostalskyview.com/rooms/room2/</guid>
+      <description>Descripción Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar</description>
+    </item>
+    <item>
+      <title>Habitación 3</title>
+      <link>http://hostalskyview.com/rooms/room3/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://hostalskyview.com/rooms/room3/</guid>
+      <description>Descripción Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar</description>
+    </item>
+    <item>
+      <title>Habitación 5</title>
+      <link>http://hostalskyview.com/rooms/room5/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://hostalskyview.com/rooms/room5/</guid>
+      <description>Descripción Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar</description>
+    </item>
+    <item>
+      <title>Habitación 6</title>
+      <link>http://hostalskyview.com/rooms/room6/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://hostalskyview.com/rooms/room6/</guid>
+      <description>Descripción Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar</description>
+    </item>
+    <item>
+      <title>Habitación 7</title>
+      <link>http://hostalskyview.com/rooms/room7/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://hostalskyview.com/rooms/room7/</guid>
+      <description>Descripción Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar</description>
+    </item>
+    <item>
+      <title>Bar</title>
+      <link>http://hostalskyview.com/rooms/bar/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://hostalskyview.com/rooms/bar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contáctenos</title>
+      <link>http://hostalskyview.com/contact/</link>
+      <pubDate>Thu, 25 Jan 2024 13:36:59 -0500</pubDate>
+      <guid>http://hostalskyview.com/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reserva</title>
+      <link>http://hostalskyview.com/booking/</link>
+      <pubDate>Thu, 25 Jan 2024 13:36:52 -0500</pubDate>
+      <guid>http://hostalskyview.com/booking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Servicios</title>
+      <link>http://hostalskyview.com/services/</link>
+      <pubDate>Thu, 25 Jan 2024 13:16:45 -0500</pubDate>
+      <guid>http://hostalskyview.com/services/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
