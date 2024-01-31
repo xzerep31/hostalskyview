@@ -1,8 +1,8 @@
-{{ if isset .Site.Params.rooms "room1"}}
-{{ if .Site.Params.rooms.room1 }}
-{{ if isset .Site.Data "room1" }}
-{{ if gt (len .Site.Data.room1) 0 }}
-<div id="room1">
+{{ if isset .Site.Params.rooms "room2"}}
+{{ if .Site.Params.rooms.room2 }}
+{{ if isset .Site.Data "room2" }}
+{{ if gt (len .Site.Data.room2) 0 }}
+<div id="room2">
     <div class="section">
         <div class="card-content">
             <div class="content">
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="gallery columns is-multiline">
-            {{ range sort .Site.Data.room1 "weight" }}
+            {{ range sort .Site.Data.room2 "weight" }}
             <div class="column is-3">
                 <div class="gallery__img ">
                     <img src="{{ .image }}" alt=" {{ .title }} ">

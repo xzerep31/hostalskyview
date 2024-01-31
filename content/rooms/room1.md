@@ -8,15 +8,8 @@ featuredImage: "/imgs/rooms/room1.jpg"
 bed: 2
 bath: 1
 wifi: "on"
-description: "Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar"
-images:
-    - /imgs/rooms/room1/Sin título-17.jpg
-    - /imgs/rooms/room1/Sin título-18.jpg
-    - /imgs/rooms/room1/IMG-20231225-WA0027.jpg
-    - /imgs/rooms/room1/IMG-20231225-WA0057.jpg
-    - /imgs/rooms/room1/IMG-20231225-WA0052.jpg
-
 ---
 
-# Descripción
-Habitación amueblada con dos camas matrimoniales y un baño. No dispone de minibar
+### Detalles de la Habitación 1
+
+Habitación doble, en la segunda planta del hostal, __acomodada con dos camas__, __minibar con agua embotellada__, un estante para su ropa, una __caja fuerte__ y __aire acondicionado__. Tiene, además, un __baño privado con ducha con agua caliente__, secador de pelo y artículos de aseo.

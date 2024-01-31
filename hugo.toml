@@ -76,4 +76,11 @@ canonifyUrls = true
     url = "/contact/"
 
 [params.rooms]
-    enable = true
+    room1 = "ok"
+    room2 = "ok"
+    room3 = "ok"
+    room4 = "none"
+    room5 = "ok"
+    room6 = "ok"
+    room7 = "ok"
+    bar = "ok"
