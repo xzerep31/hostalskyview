@@ -84,3 +84,6 @@ canonifyUrls = true
     room6 = "ok"
     room7 = "ok"
     bar = "ok"
+
+[params.services]
+    enable = true

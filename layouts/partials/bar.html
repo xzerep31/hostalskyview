@@ -1,0 +1,26 @@
+{{ if isset .Site.Params.rooms "bar"}}
+{{ if .Site.Params.rooms.bar }}
+{{ if isset .Site.Data "bar" }}
+{{ if gt (len .Site.Data.bar) 0 }}
+<div id="bar">
+    <div class="section">
+        <div class="card-content">
+            <div class="content">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="gallery columns is-multiline">
+            {{ range sort .Site.Data.bar "weight" }}
+            <div class="column is-3">
+                <div class="gallery__img ">
+                    <img src="{{ .image }}" alt=" {{ .title }} ">
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}

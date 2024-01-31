@@ -78,3 +78,18 @@
 
 - id: aboutComment
   translation: "Hostal Sky View es una de las casas de hospedaje más bellas y majestuosas de la ciudad de Trinidad. Destaca por su privilegiada situación, en una zona tranquila, a sólo 50 m de la Plaza Céspedes (centro vital de Trinidad). En sus alrededores entcontrarás tiendas, centros comerciales, servicios y una variada oferta de otras atracciones turísticas. Hostal Sky View te ofrece, además, comodidad y confort, acompañado de una de las mejores vistas de la ciudad. Sus patios, terrazas y habitaciones hacen que tu estancia sea más agradable."
+
+- id: Wifi
+  translation: "Wifi"
+
+- id: Taxi
+  translation: "Taxi"
+
+- id: Bar
+  translation: "Bar"
+
+- id: Excursions
+  translation: "Excursiones"
+
+- id: OpenSpaces
+  translation: "Patios y Terrazas"
