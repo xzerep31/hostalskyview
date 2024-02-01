@@ -59,10 +59,6 @@ canonifyUrls = true
     weight = 2
     url = "/about/"
 [[menu.main]]
-    name = "Services"
-    weight = 3
-    url = "/services/"
-[[menu.main]]
     name = "Rooms"
     weight = 4
     url = "/rooms/"
@@ -88,6 +84,7 @@ canonifyUrls = true
     room6 = "ok"
     room7 = "ok"
     bar = "ok"
+    gallery = "ok"
 
 [params.services]
     enable = true
