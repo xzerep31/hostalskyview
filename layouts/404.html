@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "head" . }}
+  </head>
+
+  <body>
+    {{ partial "header" .}}
+    {{ partial "page_header" .}}
+
+        <div id="content">
+            <div class="container-xxl py-5">
+
+                <div class="container" id="error-page">
+
+                    <div class="row g-5 align-items-center">
+
+                        <h3 class="text-primary text-uppercase">{{ i18n "404Message" }}</h3>
+                        <h1 class="mb-6 text-uppercase">{{ i18n "404Error" }}</h1>
+
+                        <p class="buttons"><a href="{{ "/" | relURL }}" class="btn btn-template-main"><i class="fas fa-home"></i> {{ i18n "404NavHome" }}</a></p>
+                    </div>
+
+
+                </div>
+                <!-- /.col-sm-6 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer" . }}
+
+    </div>
+  </body>
+</html>

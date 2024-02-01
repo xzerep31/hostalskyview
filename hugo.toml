@@ -71,8 +71,12 @@ canonifyUrls = true
     weight = 5
     url = "/booking/"
 [[menu.main]]
-    name = "contactUs"
+    name = "gallery"
     weight = 6
+    url = "/gallery/"
+[[menu.main]]
+    name = "contactUs"
+    weight = 7
     url = "/contact/"
 
 [params.rooms]

@@ -93,3 +93,18 @@
 
 - id: OpenSpaces
   translation: "Patios y Terrazas"
+
+- id: readMore
+  translation: "Leer Más ..."
+
+- id: 404Error
+  translation: "Error 404: Página no encontrada"
+
+- id: 404Message
+  translation: "Lo sentimos – esta página ya no está aquí"
+
+- id: 404NavHome
+  translation: "Ir a la página de inicio"
+
+- id: gallery
+  translation: "Galería de Fotos"

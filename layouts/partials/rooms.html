@@ -2,42 +2,81 @@
     <div class="section">
         {{ .Content }}
         <div class="columns is-multiline">
-            {{ range .Pages }}
-            <div class="column is-4">
-                <div class="room-item shadow rounded overflow-hidden">
-                    <div class="position-relative">
-                        <img class="img-fluid" src="{{ .Params.featuredImage }}" alt="">
-                    </div>
-                    <div class="p-4 mt-2">
-                        <div class="d-flex justify-content-between mb-3">
-                            <h5 class="mb-0">{{ .Title }}</h5>
-                            <div class="ps-2">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+            {{ if .IsHome }}
+                {{ range (where .Site.RegularPages "Type" "rooms" | first 3) }}
+                <div class="column is-4">
+                    <div class="room-item shadow rounded overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="{{ .Params.featuredImage }}" alt="">
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">{{ .Title }}</h5>
+                                <div class="ps-2">
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                    <small class="fa fa-star text-primary"></small>
+                                </div>
                             </div>
-                        </div>
-                        <div class="d-flex mb-3">
-                            {{ if isset .Params "bed" }}
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>{{ .Params.bed }}</small>
-                            {{ end }}
-                            {{ if isset .Params "bath" }}
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>{{ .Params.bath }}</small>
-                            {{ end }}
-                            {{ if eq .Params.Wifi "on" }}
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            {{ else }}
-                            {{ end }}
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{ .Permalink }}">{{ i18n "viewDetail" }}</a>
-                            <a class="btn btn-sm btn-dark rounded py-2 px-4" href="{{ "contact" | relURL }}">{{ i18n "bookNow" }}</a>
+                            <div class="d-flex mb-3">
+                                {{ if isset .Params "bed" }}
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>{{ .Params.bed }}</small>
+                                {{ end }}
+                                {{ if isset .Params "bath" }}
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>{{ .Params.bath }}</small>
+                                {{ end }}
+                                {{ if eq .Params.Wifi "on" }}
+                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                {{ else }}
+                                {{ end }}
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                {{ end }}
+                <div class="column is-10">
+                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{ "rooms" | relURL  }}">{{ i18n "readMore" }}</a>
+                </div>
+            {{ else }}
+                {{ range .Pages }}
+                    <div class="column is-4">
+                        <div class="room-item shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="{{ .Params.featuredImage }}" alt="">
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">{{ .Title }}</h5>
+                                    <div class="ps-2">
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                        <small class="fa fa-star text-primary"></small>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    {{ if isset .Params "bed" }}
+                                        <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>{{ .Params.bed }}</small>
+                                    {{ end }}
+                                    {{ if isset .Params "bath" }}
+                                        <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>{{ .Params.bath }}</small>
+                                    {{ end }}
+                                    {{ if eq .Params.Wifi "on" }}
+                                        <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    {{ else }}
+                                    {{ end }}
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{ .Permalink }}">{{ i18n "viewDetail" }}</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="{{ "contact" | relURL }}">{{ i18n "bookNow" }}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
             {{ end }}
         </div>
     </div>
