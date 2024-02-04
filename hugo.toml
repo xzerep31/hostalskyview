@@ -1,7 +1,8 @@
-baseURL = 'http://hostalskyview.com/'
+baseURL = 'https://hostalskyview.com/'
 languageCode = 'en-us'
 title = 'Sky View'
 defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = true
 paginate = 20
 canonifyUrls = true
 
@@ -95,4 +96,28 @@ canonifyUrls = true
 # Staff
 [params.staff]
     enable = true
-    
+
+
+[languages]
+[languages.es]
+    baseURL = 'https://hostalskyview.com/'
+    contentDir = 'content/es'
+    disabled = false
+    languageCode = 'es'
+    languageDirection = 'ltr'
+    languageName = 'Spanish'
+    title = 'Sky View'
+    weight = 0
+    [languages.es.params]
+      subtitle = 'Hostal Sky View'
+[language.en]
+    baseURL = 'https://hostalskyview.com/en/'
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Sky View'
+    weight = 0
+    [languages.en.params]
+      subtitle = 'Hostal Sky View'
