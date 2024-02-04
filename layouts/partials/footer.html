@@ -9,10 +9,11 @@
             <div class="col-md-6 col-lg-4">
                 <img src="{{ "imgs/logo.png" | relURL }}" alt="">
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-4">
                 <h6 class="section-title text-start text-primary text-uppercase mb-4">{{ i18n "contactUs" }}</h6>
                 <p class="mb-2"><i class="fa fa-map-signs me-3"></i>{{ .Site.Params.address }}</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>{{ .Site.Params.phone }}</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>{{ .Site.Params.phone2 }}</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>{{ .Site.Params.email }}</p>
                 <div class="d-flex pt-2">
                     {{ with .Site.Params.social }}

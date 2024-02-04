@@ -19,6 +19,9 @@
 - id: contactUs
   translation: "Contáctenos"
 
+- id: opinionUs
+  translation: "Opine sobre nosotros"
+
 - id: checkIn
   translation: "Fecha de llegada"
 
@@ -108,3 +111,12 @@
 
 - id: gallery
   translation: "Galería de Fotos"
+
+- id: ourTeam
+  translation: "Equipo de atención"
+
+- id: danceClass
+  translation: "Clases de baile"
+
+- id: laundryService
+  translation: "Servicio de lavandería"

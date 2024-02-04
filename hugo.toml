@@ -22,7 +22,8 @@ canonifyUrls = true
     math = true
 
     address = "120, Calle Borrell, entre calle Santo Domingo y calle San Procopio, Trinidad 62600"
-    phone = "(+53 5) 359-2372"
+    phone  = "(+53) 5281-7286"
+    phone2 = "(+53) 5391-7032"
     email = "hostalskyview@gmail.com"
 
     formsubmit_action = "https://formsubmit.co/hostalskyview@gmail.com"
@@ -42,7 +43,7 @@ canonifyUrls = true
     name = "Gmail"
     icon = "fa fa-envelope"
     weight = 3
-    url = "mailto:hostlskyview@gmail.com"
+    url = "mailto:hostalskyview@gmail.com"
 [[params.social]]
     name = "TripAdvisor"
     icon = "fab fa-tripadvisor"
@@ -75,6 +76,7 @@ canonifyUrls = true
     weight = 7
     url = "/contact/"
 
+# Rooms Details
 [params.rooms]
     room1 = "ok"
     room2 = "ok"
@@ -86,5 +88,11 @@ canonifyUrls = true
     bar = "ok"
     gallery = "ok"
 
+# Services
 [params.services]
     enable = true
+
+# Staff
+[params.staff]
+    enable = true
+    

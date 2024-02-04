@@ -1,0 +1,122 @@
+- id: Home
+  translation: "Home"
+
+- id: About
+  translation: "Who are we"
+
+- id: Services
+  translation: "Services"
+
+- id: ourServices
+  translation: "Our Services"
+
+- id: Rooms
+  translation: "Rooms"
+
+- id: Booking
+  translation: "Booking"
+
+- id: contactUs
+  translation: "Contact Us"
+
+- id: opinionUs
+  translation: "Your Opinions"
+
+- id: checkIn
+  translation: "Date Arrival"
+
+- id: checkOut
+  translation: "Date End"
+
+- id: Adults
+  translation: "Adults"
+
+- id: Childs
+  translation: "Childs"
+
+- id: contactName
+  translation: "Your Name"
+
+- id: contactMail
+  translation: "Your Email"
+
+- id: bookNow
+  translation: "Booking Now"
+
+- id: selectAroom
+  translation: "Select a room"
+
+- id: specialRequest
+  translation: "Special Requirements"
+
+- id: Room
+  translation: "Room"
+
+- id: subject
+  translation: "Subject"
+
+- id: leaveMessage
+  translation: "leave a Message"
+
+- id: sendMessage
+  translation: "Send Message"
+
+- id: ourRooms
+  translation: "Our Rooms"
+
+- id: bookRoom
+  translation: "Book a Room"
+
+- id: Dinner
+  translation: "Dinner"
+
+- id: Breakfast
+  translation: "Breakfast"
+
+- id: airConditioner
+  translation: "Air Conditioner"
+
+- id: viewDetail
+  translation: "Details..."
+
+- id: aboutComment
+  translation: "Hostal Sky View es una de las casas de hospedaje más bellas y majestuosas de la ciudad de Trinidad. Destaca por su privilegiada situación, en una zona tranquila, a sólo 50 m de la Plaza Céspedes (centro vital de Trinidad). En sus alrededores entcontrarás tiendas, centros comerciales, servicios y una variada oferta de otras atracciones turísticas. Hostal Sky View te ofrece, además, comodidad y confort, acompañado de una de las mejores vistas de la ciudad. Sus patios, terrazas y habitaciones hacen que tu estancia sea más agradable."
+
+- id: Wifi
+  translation: "Wifi"
+
+- id: Taxi
+  translation: "Taxi"
+
+- id: Bar
+  translation: "Bar"
+
+- id: Excursions
+  translation: "Excursions"
+
+- id: OpenSpaces
+  translation: "Patios y Terrazas"
+
+- id: readMore
+  translation: "Read more ..."
+
+- id: 404Error
+  translation: "Error 404: Page not found"
+
+- id: 404Message
+  translation: "Sorry – this page not here"
+
+- id: 404NavHome
+  translation: "Go to the home page"
+
+- id: gallery
+  translation: "Picture Gallery"
+
+- id: ourTeam
+  translation: "Our Team"
+
+- id: danceClass
+  translation: "Dance Class"
+
+- id: laundryService
+  translation: "Laundry Services"

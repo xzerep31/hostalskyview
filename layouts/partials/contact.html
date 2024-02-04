@@ -3,49 +3,50 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title text-center text-primary text-uppercase">{{ i18n "contactUs" }}</h6>
+            <h6 class="section-title text-center text-primary text-uppercase">{{ i18n "opinionUs" }}</h6>
         </div>
         <div class="row g-4">
             <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14818.015641237082!2d-79.9849222!3d21.7994529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f2ae45d0b21a7e9%3A0x7c18fe08e270faeb!2sHostal%20Sky%20View!5e0!3m2!1sen!2scu!4v1706384287157!5m2!1sen!2scu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3704.5037820225148!2d-79.98749712570384!3d21.799457860864546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f2ae45d0b21a7e9%3A0x7c18fe08e270faeb!2sHostal%20Sky%20View!5e0!3m2!1sen!2scu!4v1706985355283!5m2!1sen!2scu" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-md-6">
                 <div class="wow fadeInUp" data-wow-delay="0.2s">
-                    <form action="{{ .Site.Params.formsubmit_action }}" method="post">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="{{ i18n "contactName" }}">
-                                    <label for="name">{{ i18n "contactName" }}</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="{{ i18n "contactMail" }}">
-                                    <label for="email">{{ i18n "contactMail" }}</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="{{ i18n "subject" }}">
-                                    <label for="subject">{{ i18n "subject" }}</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="{{ i18n "leaveMessage" }}" id="message" style="height: 150px"></textarea>
-                                    <label for="message">{{ i18n "leaveMessage" }}</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">{{ i18n "sendMessage" }}</button>
-                            </div>
-                        </div>
-                    </form>
+                    <div id="graphcomment"></div>
+                    <script type="text/javascript">
+                    
+                      /* - - - CONFIGURATION VARIABLES - - - */
+                    
+                        var __semio__params = {
+                        graphcommentId: "Sky-View", // make sure the id is yours
+                    
+                        behaviour: {
+                          // HIGHLY RECOMMENDED
+                          //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
+                        },
+                    
+                        // configure your variables here
+                    
+                      }
+                    
+                      /* - - - DON'T EDIT BELOW THIS LINE - - - */
+                    
+                      function __semio__onload() {
+                        __semio__gc_graphlogin(__semio__params)
+                      }
+                    
+                    
+                      (function() {
+                        var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+                        gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+                      })();
+                      
+                    
+                    </script>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Contact End -->
+    <!-- Contact End -->
 </div>

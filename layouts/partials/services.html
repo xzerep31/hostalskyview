@@ -3,7 +3,6 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title text-center text-primary text-uppercase">{{ i18n "ourServices" }}</h6>
-                <h1 class="mb-5">Explore nuestros <span class="text-primary text-uppercase">{{ i18n "Services" }}</span></h1>
             </div>
             <div class="row g-2">
                 {{ if .Site.Params.services.enable }}
@@ -28,4 +27,8 @@
             </div>
         </div>
     </div>
+    {{ if not .IsHome }}
+        {{ partial "teams" . }}
+    {{ else }}
+    {{ end }}
 </div>
