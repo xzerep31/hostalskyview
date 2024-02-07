@@ -11,9 +11,7 @@ canonifyUrls = true
     defaultKeywords = ["Hostal", "Bar", "Sky View", "Room", "Rent Room", "Habitación", "Renta", "Descanso"]
     author = "Pedro Victor Navarrete Alejo"
     info = ""
-    
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    homepage = "/"
 
     hidecredits = false
     hidecopyright = false
@@ -28,6 +26,19 @@ canonifyUrls = true
     email = "hostalskyview@gmail.com"
 
     formsubmit_action = "https://formsubmit.co/hostalskyview@gmail.com"
+
+[languages]
+    [languages.es]
+        contentDir = 'content/es'
+        languageName = "Español"
+        flag = 'fi fi-es fis'
+        weight = 1
+        
+    [languages.en]
+        contentDir = 'content/en'
+        languageName = "Inglés"
+        flag = 'fi fi-sh fis'
+        weight = 2
 
 # Social links
 [[params.social]]
@@ -96,28 +107,3 @@ canonifyUrls = true
 # Staff
 [params.staff]
     enable = true
-
-
-[languages]
-[languages.es]
-    baseURL = 'https://hostalskyview.com/'
-    contentDir = 'content/es'
-    disabled = false
-    languageCode = 'es'
-    languageDirection = 'ltr'
-    languageName = 'Spanish'
-    title = 'Sky View'
-    weight = 0
-    [languages.es.params]
-      subtitle = 'Hostal Sky View'
-[language.en]
-    baseURL = 'https://hostalskyview.com/en/'
-    contentDir = 'content/en'
-    disabled = false
-    languageCode = 'en'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    title = 'Sky View'
-    weight = 0
-    [languages.en.params]
-      subtitle = 'Hostal Sky View'

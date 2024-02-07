@@ -20,32 +20,39 @@
                 <div class="col-lg-5 px-5 text-end">
                     <div class="d-inline-flex align-items-center py-2">
                         {{ with .Site.Params.social }}
-                            {{ range sort . "weight" }}
-                                <a class="me-3" href="{{ .url }}"><i class="{{ .icon }}"></i></a>
-                            {{ end }}
+                        {{ range sort . "weight" }}
+                            <a class="me-3" href="{{ .url }}"><i class="{{ .icon }}"></i></a>
                         {{ end }}
+                        {{ end }}
+                        {{ partial "lang_menu" . }}
                     </div>
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
-                <a href="/" class="navbar-brand d-block d-lg-none">
+                <a href="{{ relLangURL "/" }}" class="navbar-brand d-block d-lg-none">
                     <h1 class="m-0 text-primary text-uppercase">{{ .Site.Title }}</h1>
                 </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div>
+                    {{ range .Translations }}
+                        <a class="navbar-toggler me-5" href="{{ .Permalink }}" hreflang="{{ .Language.Lang }} "><span class=" {{ .Language.Params.flag }}"></span></a>
+                    {{ end }}
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                    
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
                         {{ with site.Menus.main }}
-                            {{ range . }}
-                                {{ if $.IsMenuCurrent .Menu .}}
-                                    <a href="{{ .URL }}" class="nav-item nav-link active">{{ i18n .Name }}</a>
-                                {{ else }}
-                                    <a href="{{ .URL }}" class="nav-item nav-link">{{ i18n .Name }}</a>
-                                {{ end }}
-                            {{ end }}
+                        {{ range . }}
+                        {{ if $.IsMenuCurrent .Menu .}}
+                        <a href="{{ .URL | relLangURL }}" class="nav-item nav-link active">{{ i18n .Name }}</a>
+                        {{ else }}
+                        <a href="{{ .URL | relLangURL }}" class="nav-item nav-link">{{ i18n .Name }}</a>
                         {{ end }}
-                        </div>
+                        {{ end }}
+                        {{ end }}
+                    </div>
                 </div>
             </nav>
         </div>

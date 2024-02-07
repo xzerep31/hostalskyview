@@ -13,7 +13,7 @@
     <meta name="description" content="{{ $description_plain }}">
    
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ "imgs/favicon.ico" | relURL }}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ "/imgs/favicon.png" | relURL }}" type="image/x-icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,9 +32,19 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ "/css/bootstrap.min.css" | relURL }}" rel="stylesheet">
     
+    <!-- Flag Icons -->
+    <link rel="stylesheet" href="{{ "/css/flag-icons/css/flag-icons.css" | relURL }}">
+    
     <!-- Template flaticon Stylesheet -->
-    <link rel='stylesheet' href="{{"/css/uicons-regular-rounded/css/uicons-regular-rounded.css" | relURL }}">
+    <link rel='stylesheet' href="{{ "/css/uicons-regular-rounded/css/uicons-regular-rounded.css" | relURL }}">
     
     <!-- Template Stylesheet -->
     <link rel="stylesheet" href="{{ "/css/bulma/css/bulma.min.css" | relURL }}">
     <link href="{{ "/css/style.css" | relURL }}" rel="stylesheet">
+
+    {{ if .IsTranslated }}
+    {{ range .Translations }}
+        <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+    {{ end }}
+        <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+    {{ end }}

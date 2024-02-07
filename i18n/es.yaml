@@ -52,6 +52,9 @@
 - id: Room
   translation: "Habitación"
 
+- id: Rooms
+  translation: "Habitaciones"
+
 - id: subject
   translation: "Asunto"
 
@@ -120,3 +123,9 @@
 
 - id: laundryService
   translation: "Servicio de lavandería"
+
+- id: English
+  translation: "Inglés"
+
+- id: Spanish
+  translation: "Español"

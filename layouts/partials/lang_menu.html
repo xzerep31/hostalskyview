@@ -1,0 +1,5 @@
+<div class="me-5">
+    {{ range .Translations }}
+        <a href="{{ .Permalink }}" hreflang="{{ .Language.Lang }} "><span class=" {{ .Language.Params.flag }}"></span></a>
+    {{ end }}
+</div>
