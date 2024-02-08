@@ -11,7 +11,6 @@ canonifyUrls = true
     defaultKeywords = ["Hostal", "Bar", "Sky View", "Room", "Rent Room", "Habitación", "Renta", "Descanso"]
     author = "Pedro Victor Navarrete Alejo"
     info = ""
-    homepage = "/"
 
     hidecredits = false
     hidecopyright = false
@@ -30,13 +29,13 @@ canonifyUrls = true
 [languages]
     [languages.es]
         contentDir = 'content/es'
-        languageName = "Español"
+        languageName = "Es"
         flag = 'fi fi-es fis'
         weight = 1
         
     [languages.en]
         contentDir = 'content/en'
-        languageName = "Inglés"
+        languageName = "En"
         flag = 'fi fi-sh fis'
         weight = 2
 

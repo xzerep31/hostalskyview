@@ -1,4 +1,4 @@
 weight: 8
 icon: "fa fa-wifi fa-3x text-primary"
-description: "Puede disfrutar de acceso a Internet desde la comodidad de nuestros espacios."
+description: "wifiServiceDescription"
 name: "Wifi"

@@ -4,8 +4,8 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
-                        <h6 class="section-title text-start text-primary text-uppercase">¿Quiénes Somos?</h6>
-                        <h1 class="mb-4">Bienvenido a <span class="text-primary text-uppercase">Sky View</span></h1>
+                        <h6 class="section-title text-start text-primary text-uppercase">{{ i18n "About" }}</h6>
+                        <h1 class="mb-4">{{ i18n "welcomeTo" }}<span class="text-primary text-uppercase">Sky View</span></h1>
                         <p class="mb-4">{{ i18n "aboutComment" }}</p>
                         <div class="row g-3 pb-4">
                             <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
@@ -13,7 +13,7 @@
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
                                         <h2 class="mb-1" data-toggle="counter-up">6</h2>
-                                        <p class="mb-0">Habitaciones</p>
+                                        <p class="mb-0">{{ i18n "Rooms" }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -22,7 +22,7 @@
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
                                         <h2 class="mb-1" data-toggle="counter-up">3</h2>
-                                        <p class="mb-0">Personal</p>
+                                        <p class="mb-0">{{ i18n "Personal" }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -31,12 +31,12 @@
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-users fa-2x text-primary mb-2"></i>
                                         <h2 class="mb-1" data-toggle="counter-up">123</h2>
-                                        <p class="mb-0">Clientes</p>
+                                        <p class="mb-0">{{ i18n "Guests" }}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="{{ "about" | relURL }}">{{ i18n "readMore" }} </a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="{{ relLangURL "/about" }}">{{ i18n "readMore" }} </a>
                     </div>
                     <div class="col-lg-6">
                         <div class="row g-3">
@@ -62,8 +62,8 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
-                        <h6 class="section-title text-start text-primary text-uppercase">¿Quiénes Somos?</h6>
-                        <h1 class="mb-4">Bienvenido a <span class="text-primary text-uppercase">Sky View</span></h1>
+                        <h6 class="section-title text-start text-primary text-uppercase">{{ i18n "About" }}</h6>
+                        <h1 class="mb-4">{{ i18n "welcomeTo" }} <span class="text-primary text-uppercase">Sky View</span></h1>
                         <p class="mb-4">{{ i18n "aboutComment" }}</p>
                         <div class="row g-3 pb-4">
                             <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
@@ -71,7 +71,7 @@
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
                                         <h2 class="mb-1" data-toggle="counter-up">6</h2>
-                                        <p class="mb-0">Habitaciones</p>
+                                        <p class="mb-0">{{ i18n "Rooms" }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
                                         <h2 class="mb-1" data-toggle="counter-up">3</h2>
-                                        <p class="mb-0">Personal</p>
+                                        <p class="mb-0">{{ i18n "Personal" }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                                     <div class="border rounded text-center p-4">
                                         <i class="fa fa-users fa-2x text-primary mb-2"></i>
                                         <h2 class="mb-1" data-toggle="counter-up">123</h2>
-                                        <p class="mb-0">Clientes</p>
+                                        <p class="mb-0">{{ i18n "Guests" }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -113,6 +113,7 @@
                     </div>
                 </div>
             </div>
+            {{ partial "teams" .}}
         </div>
     {{ end }}
 </div>

@@ -83,7 +83,7 @@
   translation: "Details..."
 
 - id: aboutComment
-  translation: "Hostal Sky View es una de las casas de hospedaje más bellas y majestuosas de la ciudad de Trinidad. Destaca por su privilegiada situación, en una zona tranquila, a sólo 50 m de la Plaza Céspedes (centro vital de Trinidad). En sus alrededores entcontrarás tiendas, centros comerciales, servicios y una variada oferta de otras atracciones turísticas. Hostal Sky View te ofrece, además, comodidad y confort, acompañado de una de las mejores vistas de la ciudad. Sus patios, terrazas y habitaciones hacen que tu estancia sea más agradable."
+  translation: "Hostal Sky View is one of the most beautiful and majestic lodging houses in the city of Trinidad. It stands out for its privileged location, in a quiet area, just 50 meters from Plaza Céspedes (vital center of Trinidad). In its surroundings you will find shops, shopping centers, services and a wide range of other tourist attractions. Hostal Sky View also offers you convenience and comfort, accompanied by one of the best views of the city. Its patios, terraces and rooms make your stay more pleasant."
 
 - id: Wifi
   translation: "Wifi"
@@ -98,7 +98,7 @@
   translation: "Excursions"
 
 - id: OpenSpaces
-  translation: "Patios y Terrazas"
+  translation: "Patios & Terraces"
 
 - id: readMore
   translation: "Read more ..."
@@ -129,3 +129,57 @@
 
 - id: Español
   translation: "Spanish"
+
+- id: welcomeTo
+  translation: "Welcome to"
+
+- id: Guests
+  translation: "Guests"
+
+- id: Personal
+  translation: "Staff"
+
+- id: room1
+  translation: "Room 1"
+
+- id: room2
+  translation: "Room 2"
+
+- id: room3
+  translation: "Room 3"
+
+- id: room4
+  translation: "Room 4"
+
+- id: room5
+  translation: "Room 5"
+
+- id: room6
+  translation: "Room 6"
+
+- id: room7
+  translation: "Room 7"
+
+- id: barServiceDescription
+  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+
+- id: danceClassServiceDescription
+  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+
+- id: dinnerServiceDescription
+  translation: "We offer you breakfast in our hostel, as well as instant coffee as a courtesy. We also provide you with the facilities for a barbecue in our patio. You can also dine with us."
+
+- id: excursionsServiceDescription
+  translation: "We provide you with the possibility of excursions such as hiking, horse riding, bicycle rental and car rental."
+
+- id: laundryServiceDescription
+  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+
+- id: openSpaceServiceDescription
+  translation: "At your disposal are the patios and terraces of our hostel, where you can enjoy the views, sunbathing or tasting a delicious coffee."
+
+- id: taxiServiceDescription
+  translation: "We make it easier for you to arrange taxis for your travel, whether for excursions or to the airport."
+
+- id: wifiServiceDescription
+  translation: "You can enjoy Internet access from the comfort of our spaces."

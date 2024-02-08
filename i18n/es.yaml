@@ -124,8 +124,56 @@
 - id: laundryService
   translation: "Servicio de lavandería"
 
-- id: English
-  translation: "Inglés"
+- id: welcomeTo
+  translation: "Bienvenido a "
 
-- id: Spanish
-  translation: "Español"
+- id: Guests
+  translation: "Clientes"
+
+- id: Personal
+  translation: "Personal"
+
+- id: room1
+  translation: "Habitación 1"
+
+- id: room2
+  translation: "Habitación 2"
+
+- id: room3
+  translation: "Habitación 3"
+
+- id: room4
+  translation: "Habitación 4"
+
+- id: room5
+  translation: "Habitación 5"
+
+- id: room6
+  translation: "Habitación 6"
+
+- id: room7
+  translation: "Habitación 7"
+
+- id: barServiceDescription
+  translation: "Ofrecemos en nuestro bar, las tradicionales cervezas y rones típicos de nuestro país, así como otros tragos tradicionales de otras regiones. A su llegada tendrá un coctel de bienvenida."
+
+- id: danceClassServiceDescription
+  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+
+- id: dinnerServiceDescription
+  translation: "Le ofrecemos el desayuno en nuestro hostal, así como tendrá un café instantáneo como cortesia.Además le brindamos las facilidades para una parrillada en nuestro patio. También puede cenar con nosotros."
+
+- id: excursionsServiceDescription
+  translation: "Le facilitamos la posibilidad de realizar excursiones como senderismo, montar a caballo, alquiler de bicicletas y alquiler de coches."
+
+- id: laundryServiceDescription
+  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+
+- id: openSpaceServiceDescription
+  translation: "A su disposición están los patios y terrazas de nuestro hostal, donde puede disfrutar de las vistas, tomando el sol o degustando un delicioso café."
+
+- id: taxiServiceDescription
+  translation: "Le facilitamos la gestión de taxis para su desplazamiento, bien sea a excursiones como hacia el aeropuerto."
+
+- id: wifiServiceDescription
+  translation: "Puede disfrutar de acceso a Internet desde la comodidad de nuestros espacios."

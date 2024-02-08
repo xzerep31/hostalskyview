@@ -1,5 +1,5 @@
 ---
-title: 'Room 7'
+title: 'room7'
 date: 2024-01-25T14:37:14-05:00
 draft: false
 id: "room7"
@@ -10,6 +10,6 @@ bath: 1
 wifi: "on"
 ---
 
-### Detalles de la Habitación 7
+### Room 7 Details 
 
-Habitación doble, en la segunda planta del hostal, __acomodada con dos camas__, __minibar con agua embotellada__, un estante para su ropa, una __caja fuerte__ y __aire acondicionado__. Tiene, además, un __baño privado con ducha con agua caliente__, secador de pelo y artículos de aseo.
+Double room __air-conditioned__, on the ground floor, at the end of the main patio of the hostel, __accommodated with two beds__, __minibar with bottled water__, a shelf for your clothes. It also has a __private bathroom with a shower with hot water__, hairdryer and toiletries.

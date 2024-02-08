@@ -1,5 +1,5 @@
 ---
-title: 'Habitación 6'
+title: 'room6'
 date: 2024-01-25T14:37:14-05:00
 draft: false
 id: "room6"

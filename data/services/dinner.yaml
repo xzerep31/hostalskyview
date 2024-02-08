@@ -1,4 +1,4 @@
 weight: 1
 icon: "fa fa-utensils fa-3x text-primary"
-description: "Le ofrecemos el desayuno en nuestro hostal, así como tendrá un café instantáneo como cortesia.Además le brindamos las facilidades para una parrillada en nuestro patio. También puede cenar con nosotros"
+description: "dinnerServiceDescription"
 name: "Dinner"
