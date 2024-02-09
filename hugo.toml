@@ -30,14 +30,17 @@ canonifyUrls = true
     [languages.es]
         contentDir = 'content/es'
         languageName = "Es"
-        flag = 'fi fi-es fis'
         weight = 1
+        [languages.es.params]
+            flag = 'fi fi-es fis'
         
     [languages.en]
         contentDir = 'content/en'
         languageName = "En"
-        flag = 'fi fi-sh fis'
         weight = 2
+        [languages.en.params]
+            flag = 'fi fi-sh fis'
+
 
 # Social links
 [[params.social]]
@@ -85,7 +88,7 @@ canonifyUrls = true
 [[menu.main]]
     name = "contactUs"
     weight = 7
-    url = "/contact/"
+    url = "/#footer"
 
 # Rooms Details
 [params.rooms]

@@ -3,7 +3,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title text-center text-primary text-uppercase">Reserva</h6>
+                <h6 class="section-title text-center text-primary text-uppercase">{{ i18n "Booking" }}</h6>
             </div>
             <div class="row g-5">
                 <div class="col-lg-6">
@@ -65,12 +65,9 @@
                                 <div class="col-12">
                                     <div class="form-floating">
                                         <select class="form-select" id="select3">
-                                          <option value="1">{{ i18n "Room"}} 1</option>
-                                          <option value="2">{{ i18n "Room"}} 2</option>
-                                          <option value="3">{{ i18n "Room"}} 3</option>
-                                          <option value="4">{{ i18n "Room"}} 5</option>
-                                          <option value="5">{{ i18n "Room"}} 6</option>
-                                          <option value="6">{{ i18n "Room"}} 7</option>
+                                            {{ range (where .Site.RegularPages "Type" "rooms") }}
+                                                <option value="{{ .Params.weight }}"> {{ i18n .Title }} </option>
+                                            {{ end }}
                                         </select>
                                         <label for="select3">{{ i18n "selectAroom"}}</label>
                                       </div>

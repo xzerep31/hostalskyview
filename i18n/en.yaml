@@ -2,7 +2,7 @@
   translation: "Home"
 
 - id: About
-  translation: "Who we are"
+  translation: "Who we are?"
 
 - id: Services
   translation: "Services"
@@ -131,7 +131,7 @@
   translation: "Spanish"
 
 - id: welcomeTo
-  translation: "Welcome to"
+  translation: "Welcome to "
 
 - id: Guests
   translation: "Guests"

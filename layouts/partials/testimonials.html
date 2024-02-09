@@ -1,38 +1,41 @@
 <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
-    <div class="container">
-        <div class="owl-carousel testimonial-carousel py-5">
-            <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Very nice place and great location. The owner is very helpful and the rooms are very clean and nice. They have air-conditioning and nice bathroom. And there is a bar with everything you might need while staying there. </p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="{{"imgs/testimonios/default-avatar-2020-21.jpg" | relURL }}" style="width: 45px; height: 45px;">
-                    <div class="ps-3">
-                        <h6 class="fw-bold mb-1">Vlaf</h6>
-                    </div>
-                </div>
-                <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-            </div>
-            <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>We stayed a couple of nights. Rooms were pretty average with no cupboard or drae space at all. Bathroom was ok. Breakfast was served in a lovely patio and was ok. Owners did their utmost to assist and to respond to our needs. Owners gave us some free time of wifi but most of the time we needed to connect with bought communication cards.</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="{{"imgs/testimonios/default-avatar-2020-17.jpg" | relURL }}" style="width: 45px; height: 45px;">
-                    <div class="ps-3">
-                        <h6 class="fw-bold mb-1">udihc</h6>
-                    </div>
-                </div>
-                <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-            </div>
-            <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                <p>Very nice hostal. You wake upp and a god breakfast is wating for you outside every morning. Friendly and helpful staff. Clean, fresh tiled bathroom, god central location. Very nice and service minded patron/owner.
-                    Out strongest reccommendations
-                    Anette and Bo from Sweden</p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded" src="{{"imgs/testimonios/external-avatar.jpg" | relURL }}" style="width: 45px; height: 45px;">
-                    <div class="ps-3">
-                        <h6 class="fw-bold mb-1">sorkofag</h6>
-                    </div>
-                </div>
-                <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-            </div>
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title text-center text-light text-uppercase">{{ i18n "opinionUs" }}</h6>
+    </div>
+    <div class="col-md-12 d-none d-lg-block">
+        <div class="wow fadeInUp" data-wow-delay="0.2s">
+            <div id="graphcomment"></div>
+            <script type="text/javascript">
+            
+              /* - - - CONFIGURATION VARIABLES - - - */
+            
+                var __semio__params = {
+                graphcommentId: "Sky-View", // make sure the id is yours
+            
+                behaviour: {
+                  // HIGHLY RECOMMENDED
+                  //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
+                },
+            
+                // configure your variables here
+            
+              }
+            
+              /* - - - DON'T EDIT BELOW THIS LINE - - - */
+            
+              function __semio__onload() {
+                __semio__gc_graphlogin(__semio__params)
+              }
+            
+            
+              (function() {
+                var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+                gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+              })();
+              
+            
+            </script>
         </div>
     </div>
 </div>

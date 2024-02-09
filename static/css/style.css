@@ -47,11 +47,12 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-.navbar h1{
+.navbar h1,
+.navbar-brand h1{
     font-family: 'Gabriola';
     font-size: 4.3rem;
-    color: var(--primary);
 }
+
 
 .bg-dark {
     background-color: var(--dark) !important;
@@ -179,6 +180,15 @@ body {
         margin-right: 0;
         padding: 10px 0;
     }
+
+    .navbar h1{
+        font-size: 2.5rem;
+    }
+
+    div .btn {
+        font-size: .5rem;
+    }
+
 }
 
 
@@ -385,7 +395,7 @@ body {
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(15, 23, 43, .5), rgba(15, 23, 43, .5)), url(../imgs/about-01.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .5), rgba(15, 23, 43, .5)), url(../imgs/cover-page.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

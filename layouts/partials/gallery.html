@@ -8,7 +8,7 @@
             {{ range sort .Site.Data.gallery "weight" }}
             <div class="column is-3">
                 <div class="position-relative">
-                        <a href="{{ .image  }}"><img class="img-fluid shadow" src="{{ .image }}" alt=" {{ .title }} "></a>
+                        <a href="{{ .image  }}"><img class="img-fluid shadow p-2" src="{{ .image }}" alt=" {{ .title }} " ></a>
                 </div>
             </div>
             {{ end }}
