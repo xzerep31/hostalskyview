@@ -34,10 +34,23 @@ src: url("fonts/TitilliumWeb-ExtraLight.ttf");
     src: url("fonts/fontawesome-webfont.ttf");
 }
 
+@font-face {
+    font-family:'Glyphicons Halflings';
+    src:url('fonts/glyphicons-halflings-regular.eot');
+    src:url('fonts/glyphicons-halflings-regular.eot?#iefix') 
+    format('embedded-opentype'),
+        url('fonts/glyphicons-halflings-regular.woff') 
+    format('woff'),
+        url('fonts/glyphicons-halflings-regular.ttf') 
+    format('truetype'),
+        url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') 
+    format('svg')
+}
+
 /********** Template CSS **********/
 :root {
     --dark: #060409ff;
-    --light: #5E616Fff;
+    --light: rgb(94, 97, 111);
     --primary: #3265A9ff;
 }
 
@@ -225,6 +238,10 @@ body {
         height: 100%;
         object-fit: cover;
     }
+
+    .gal-container .description h4{
+        font-size: .6rem;
+    }
 }
 
 .page-header {
@@ -288,17 +305,150 @@ body {
     grid-row-end: 9;
 }
 
+.gallery-main{
+	
+}
+
+.gallery-main .title-caption{
+	color: #666;
+}
+
+/* new gallery */
+
+.gal-container{
+	padding: 10px;
+}
+.gal-item{
+	overflow: hidden;
+	padding: 3px;
+}
+.gal-item .box{
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+.gal-item a:focus{
+	outline: none;
+}
+.gal-item a:after{
+    content:"\e003";
+	font-family: 'Glyphicons Halflings';
+	opacity: 0;
+	background-color: rgba(94, 97, 111, 0.55);
+	position: absolute;
+	right: 1px;
+	left: 1px;
+	top: 1px;
+	bottom: 1px;
+	text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.gal-item a:hover:after{
+	opacity: 1;
+}
+
+.gal-item a:hover:after{
+	opacity: 1;
+}
+.modal-open .gal-container .modal{
+	background-color: rgba(0,0,0,0.4);
+}
+.modal-open .gal-item .modal-body{
+	padding: 0px;
+}
+.modal-open .gal-item button.close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    opacity: 1;
+    color: #fff;
+    z-index: 999;
+    right: -12px;
+    top: -12px;
+    border-radius: 50%;
+    font-size: 15px;
+    border: 2px solid #fff;
+    line-height: 25px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
+}
+.modal-open .gal-item button.close:focus{
+	outline: none;
+}
+.modal-open .gal-item button.close span{
+	position: relative;
+	top: -3px;
+	font-weight: lighter;
+	text-shadow:none;
+}
+.gal-container .modal-dialogue{
+	width: 80%;
+}
+.gal-container .description{
+	position: relative;
+	height: 40px;
+	top: -40px;
+	padding: 10px 25px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	text-align: center;
+}
+.gal-container .description h4{
+	margin:0px;
+	font-size: .9rem;
+	font-weight: 300;
+	line-height: 20px;
+	color:#fff;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
+
 @media screen and (min-width: 769px), print {
     .columns:not(.is-desktop) {
             display: flex;
             justify-content: space-evenly;
         }
+        
+        
 }
 
 @media (max-width: 600px){
     .gallery {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 5vw);
+    }
+
+    .gal-container .description h4{
+        font-size: .5rem;
     }
 }
 

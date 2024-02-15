@@ -183,3 +183,102 @@
 
 - id: wifiServiceDescription
   translation: "You can enjoy Internet access from the comfort of our spaces."
+
+- id: gall1
+  translation: "Front of the Hostal"
+
+- id: gall2
+  translation: "Reception room"
+
+- id: gall3
+  translation: "Photo 1 | Bar"
+
+- id: gall4
+  translation: "Photo 2 | Bar"
+
+- id: gall5
+  translation: "Photo 3 | Bar"
+
+- id: gall6
+  translation: "Terrace | Low level"
+
+- id: gall7
+  translation: "Photo 1 | Room 6"
+
+- id: gall8
+  translation: "Photo 2 | Room 6"
+
+- id: gall9
+  translation: "Photo 3 | Room 6"
+
+- id: gall10
+  translation: "Photo 4 | Room 6"
+
+- id: gall11
+  translation: "Terrace | Low level"
+
+- id: gall12
+  translation: "Terrace | Low level"
+
+- id: gall13
+  translation: "Photo 1 | Room 5"
+
+- id: gall14
+  translation: "Photo 2 | Room 5"
+
+- id: gall15
+  translation: "Bathroom | Room 5"
+
+- id: gall16
+  translation: "Staircase to the second floor"
+
+- id: gall17
+  translation: "Second floor living room"
+
+- id: gall18
+  translation: "Second floor living room"
+
+- id: gall19
+  translation: "Terrace | Second floor"
+
+- id: gall20
+  translation: "Terrace | Second floor"
+
+- id: gall21
+  translation: "Photo 1 | Room 2"
+
+- id: gall22
+  translation: "Photo 2 | Room 2"
+
+- id: gall23
+  translation: "Photo 3 | Room 2"
+
+- id: gall24
+  translation: "Terrace | Second floor"
+
+- id: gall25
+  translation: "Photo 1 | Room 3"
+
+- id: gall26
+  translation: "Photo 2 | Room 3"
+
+- id: gall27
+  translation: "Photo 1 | Room 1"
+
+- id: gall28
+  translation: "Photo 2 | Room 1"
+
+- id: gall29
+  translation: "Photo 1 | Room 7"
+
+- id: gall30
+  translation: "Photo 2 | Room 7"
+
+- id: gall31
+  translation: "Terrace | Room 1"
+
+- id: gall32
+  translation: "Terrace | Room 2"
+
+- id: gall33
+  translation: "Terrace | Room 3"

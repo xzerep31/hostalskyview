@@ -2,15 +2,32 @@
 {{ if .Site.Params.rooms.gallery }}
 {{ if isset .Site.Data "gallery" }}
 {{ if gt (len .Site.Data.gallery) 0 }}
-<div id="gallery">
+<div id="gallery" class="gallery-main">
     <div class="section">
-        <div class="gallery columns is-multiline">
-            {{ range sort .Site.Data.gallery "weight" }}
-            <div class="column is-3">
-                <div class="position-relative">
-                        <a href="{{ .image  }}">
-                            <img class="img-fluid shadow p-2" src="{{ .image }}" alt=" {{ .title }} " height="300px" width="300px">
-                        </a>
+        <div class="gal-container clearfix columns is-multiline">
+            {{ range sort .Site.Data.gallery "weight" | first 30 }}
+            <div class="column is-3 gal-item">
+                <div class="position-relative box">
+                    <a href="{{ .image }}">
+                        <img src="{{ .image }}" alt="{{ i18n .title }}" />
+                    </a>
+                    <div class="col-md-12 description">
+                        <h4>{{ i18n .title }}</h4>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="gal-container clearfix columns is-multiline">
+            {{ range sort .Site.Data.gallery "weight" | last 3 }}
+            <div class="column is-3 gal-item">
+                <div class="position-relative box">
+                    <a href="{{ .image }}">
+                        <img src="{{ .image }}" alt="{{ i18n .title }}" />
+                    </a>
+                    <div class="col-md-12 description">
+                        <h4>{{ i18n .title }}</h4>
+                    </div>
                 </div>
             </div>
             {{ end }}
