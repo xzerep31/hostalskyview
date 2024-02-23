@@ -83,7 +83,16 @@
   translation: "Detalles..."
 
 - id: aboutComment
-  translation: "Hostal Sky View es una de las casas de hospedaje más bellas y majestuosas de la ciudad de Trinidad. Destaca por su privilegiada situación, en una zona tranquila, a sólo 50 m de la Plaza Céspedes (centro vital de Trinidad). En sus alrededores entcontrarás tiendas, centros comerciales, servicios y una variada oferta de otras atracciones turísticas. Hostal Sky View te ofrece, además, comodidad y confort, acompañado de una de las mejores vistas de la ciudad. Sus patios, terrazas y habitaciones hacen que tu estancia sea más agradable."
+  translation: "La Villa de la Santísima Trinidad es la tercera Villa fundada por los españoles a su llegada, en 1492, a Cuba. Esta mezcla tradición, Historia y modernidad, además de exhibir las maravillas y bondades de la naturaleza en esta isla tropical. Nuestra casa hostal, Sky View, enclavada a pocos metros del centro vital de Trinidad, le garantiza el disfrute desde el primer momento. Nuestra casa hostal es una de las casas más distinguidas de nuetra ciudad, por su belleza y majestuosidad.\n
+\n
+Además de la comodidad y atención qe podrás recibir en nuestra casa, estamos en un lugar espléndido, rodeado de centros comerciales, servicios y una variada oferta de otras atracciones turísticas. Unos metros más distantes quedan la Plaza Mayor y de las antiguas mansiones y casonas, que otrora fueron las residencias de las familias más poderosas y acaudaladas de la villa, actualmente Museos que conservan importantes objetos que datan de los siglos XVIII y XIX.\n
+\n
+¿Y qué decir de las experiencias culinarias? Puede contar con nuestra cocina, o visitar algunos de los restaurantes más recomendados de la Villa, igualmente a pocos metros nuestro.\n
+\n
+En nuestra casa encontrarás confort y comodidad, acompañado de una de las mejores vistas de la ciudad. nuestros patios, terrazas y habitaciones convertirán tu estancia en un recuerdo memorable.\n
+\n
+En fin, nuestra mayor satisfacción es que Ud. se sienta como en casa disfrutando de nuestra compañía y de las maravillas de esta Ciudad Patrimonio Cultural de la Humanidad.
+"
 
 - id: Wifi
   translation: "Wifi"
@@ -158,16 +167,13 @@
   translation: "Ofrecemos en nuestro bar, las tradicionales cervezas y rones típicos de nuestro país, así como otros tragos tradicionales de otras regiones. A su llegada tendrá un coctel de bienvenida."
 
 - id: danceClassServiceDescription
-  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+  translation: "Aprenda a bailar los ritmos latinos desde nuestro salón. Expertos bailarines le enseñarán a mover el esqueleto."
 
 - id: dinnerServiceDescription
-  translation: "Le ofrecemos el desayuno en nuestro hostal, así como tendrá un café instantáneo como cortesia.Además le brindamos las facilidades para una parrillada en nuestro patio. También puede cenar con nosotros."
+  translation: "Le ofrecemos el desayuno en nuestro hostal. Además le brindamos las facilidades para una parrillada en nuestro patio. También puede cenar con nosotros."
 
 - id: excursionsServiceDescription
   translation: "Le facilitamos la posibilidad de realizar excursiones como senderismo, montar a caballo, alquiler de bicicletas y alquiler de coches."
-
-- id: laundryServiceDescription
-  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
 
 - id: openSpaceServiceDescription
   translation: "A su disposición están los patios y terrazas de nuestro hostal, donde puede disfrutar de las vistas, tomando el sol o degustando un delicioso café."

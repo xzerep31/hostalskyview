@@ -473,6 +473,15 @@ body {
 }
 
 
+/*** About Comment ***/
+ .about {
+    font-family: 'Gabriola';
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+ }
+
+
 /*** Section Title ***/
 .section-title {
     position: relative;

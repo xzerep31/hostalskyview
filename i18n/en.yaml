@@ -83,7 +83,15 @@
   translation: "Details..."
 
 - id: aboutComment
-  translation: "Hostal Sky View is one of the most beautiful and majestic lodging houses in the city of Trinidad. It stands out for its privileged location, in a quiet area, just 50 meters from Plaza Céspedes (vital center of Trinidad). In its surroundings you will find shops, shopping centers, services and a wide range of other tourist attractions. Hostal Sky View also offers you convenience and comfort, accompanied by one of the best views of the city. Its patios, terraces and rooms make your stay more pleasant."
+  translation: "The Villa de la Santísima Trinidad is the third Villa founded by the Spanish upon their arrival, in 1492, in Cuba. This mixes tradition, history and modernity, in addition to exhibiting the wonders and benefits of nature on this tropical island. Our hostel house, Sky View, located a few meters from the vital center of Trinidad, guarantees your enjoyment from the first moment. Our hostel house is one of the most distinguished houses in our city, due to its beauty and majesty.
+
+In addition to the comfort and attention that you can receive in our house, we are in a splendid place, surrounded by shopping centers, services and a wide range of other tourist attractions. A few meters further away are the Plaza Mayor and the old mansions and mansions, which were once the residences of the most powerful and wealthy families in the town, currently Museums that preserve important objects dating from the 18th and 19th centuries.
+
+And what about culinary experiences? You can count on our kitchen, or visit some of the most recommended restaurants in the Villa, also just a few meters from us.
+
+In our house you will find comfort and convenience, accompanied by one of the best views of the city. Our patios, terraces and rooms will turn your stay into a memorable memory.
+
+In short, our greatest satisfaction is that you feel at home enjoying our company and the wonders of this World Cultural Heritage City."
 
 - id: Wifi
   translation: "Wifi"
@@ -164,10 +172,10 @@
   translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
 
 - id: danceClassServiceDescription
-  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+  translation: "Learn to dance Latin rhythms from our living room. Expert dancers will teach you how to move your skeleton."
 
 - id: dinnerServiceDescription
-  translation: "We offer you breakfast in our hostel, as well as instant coffee as a courtesy. We also provide you with the facilities for a barbecue in our patio. You can also dine with us."
+  translation: "We offer you breakfast in our hostel. We also provide you with the facilities for a barbecue in our patio. You can also dine with us."
 
 - id: excursionsServiceDescription
   translation: "We provide you with the possibility of excursions such as hiking, horse riding, bicycle rental and car rental."
