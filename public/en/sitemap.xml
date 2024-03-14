@@ -119,32 +119,6 @@
                 href="http://localhost:1313/en/rooms/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/opinions/</loc>
-    <lastmod>2024-01-25T13:41:02-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/opinions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/opinions/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/team/</loc>
-    <lastmod>2024-01-25T13:40:57-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/team/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/team/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/booking/</loc>
     <lastmod>2024-01-25T13:36:52-05:00</lastmod>
     <xhtml:link
