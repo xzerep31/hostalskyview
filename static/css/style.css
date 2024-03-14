@@ -245,7 +245,7 @@ body {
 }
 
 .page-header {
-    background-image: url("imgs/fachada.jpg");
+    background-image: url("/imgs/fachada.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

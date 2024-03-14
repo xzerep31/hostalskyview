@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rooms on Sky View</title>
+    <link>http://localhost:1313/en/rooms/</link>
+    <description>Recent content in Rooms on Sky View</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jan 2024 14:37:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/rooms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>room1</title>
+      <link>http://localhost:1313/en/rooms/room1/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://localhost:1313/en/rooms/room1/</guid>
+      <description>Room 1 Details Double room air-conditioned, on the second floor of the hostel, accommodated with two beds, a minibar with bottled water and a rack for your clothes. It also has a private bathroom with a shower with hot water, hairdryer and toiletries.</description>
+    </item>
+    <item>
+      <title>room2</title>
+      <link>http://localhost:1313/en/rooms/room2/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://localhost:1313/en/rooms/room2/</guid>
+      <description>Room 2 Details Double room air-conditioned, on the second floor of the hostel, accommodated with two beds, a minibar with bottled water and a rack for your clothes. It also has a private bathroom with a shower with hot water, hairdryer and toiletries.</description>
+    </item>
+    <item>
+      <title>room3</title>
+      <link>http://localhost:1313/en/rooms/room3/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://localhost:1313/en/rooms/room3/</guid>
+      <description>Room 3 Details Double room air-conditioned, on the second floor of the hostel, accommodated with two beds, a minibar with bottled water and a rack for your clothes. It also has a private bathroom with a shower with hot water, hairdryer and toiletries.</description>
+    </item>
+    <item>
+      <title>room5</title>
+      <link>http://localhost:1313/en/rooms/room5/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://localhost:1313/en/rooms/room5/</guid>
+      <description>Room 5 Details Double room air-conditioned, on the ground floor, at the end of the main patio of the hostel, accommodated with two beds, minibar with bottled water, a shelf for your clothes. It also has a private bathroom with a shower with hot water, hairdryer and toiletries.</description>
+    </item>
+    <item>
+      <title>room6</title>
+      <link>http://localhost:1313/en/rooms/room6/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://localhost:1313/en/rooms/room6/</guid>
+      <description>Room 6 Details Double room air-conditioned, on the ground floor, at the end of the main patio of the hostel, accommodated with three beds, minibar with bottled water, a shelf for your clothes. It also has a private bathroom with a shower with hot water, hairdryer and toiletries.</description>
+    </item>
+    <item>
+      <title>room7</title>
+      <link>http://localhost:1313/en/rooms/room7/</link>
+      <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
+      <guid>http://localhost:1313/en/rooms/room7/</guid>
+      <description>Room 7 Details Double room air-conditioned, on the ground floor, at the end of the main patio of the hostel, accommodated with two beds, minibar with bottled water, a shelf for your clothes. It also has a private bathroom with a shower with hot water, hairdryer and toiletries.</description>
+    </item>
+  </channel>
+</rss>
