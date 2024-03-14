@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sky View</title>
-    <link>https://hostalskyview.com/es/tags/</link>
+    <link>https://xzerep31.github.io/hostalskyview/es/tags/</link>
     <description>Recent content in Tags on Sky View</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <atom:link href="https://hostalskyview.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xzerep31.github.io/hostalskyview/es/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
