@@ -1,5 +1,5 @@
-baseURL = 'https://hostalskyview.com/'
-# baseURL = 'https://xzerep31.github.io/hostalskyview'
+# baseURL = 'https://hostalskyview.com/'
+baseURL = 'https://xzerep31.github.io/hostalskyview'
 languageCode = 'en-us'
 title = 'Sky View'
 defaultContentLanguage = 'es'
