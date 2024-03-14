@@ -12,4 +12,4 @@ wifi: "on"
 
 ### Detalles de la Habitación 1
 
-Habitación doble, en la segunda planta del hostal, __acomodada con dos camas__, __minibar con agua embotellada__, un estante para su ropa, una __caja fuerte__ y __aire acondicionado__. Tiene, además, un __baño privado con ducha con agua caliente__, secador de pelo y artículos de aseo.
+Habitación doble, en la segunda planta del hostal, __acomodada con dos camas__, __minibar con agua embotellada__, un estante para su ropa, una __caja fuerte__ y __aire acondicionado__. Tiene, además, un __baño privado con ducha con agua caliente__, secador de pelo y artículos de aseo. Dispone de acceso a pequeño balcón que cuenta como una terraza con vista al exterior de la casa.

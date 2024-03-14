@@ -184,6 +184,9 @@ En fin, nuestra mayor satisfacción es que Ud. se sienta como en casa disfrutand
 - id: wifiServiceDescription
   translation: "Puede disfrutar de acceso a Internet desde la comodidad de nuestros espacios."
 
+- id: laundryServiceDescription
+  translation: "Si lo desea, ponemos a su disposición nuestra máquina de lavar para que mantenga su ropa limpia y perfumada."
+
 - id: gall1
   translation: "Fachada del Hostal"
 

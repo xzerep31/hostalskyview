@@ -192,6 +192,9 @@ In short, our greatest satisfaction is that you feel at home enjoying our compan
 - id: wifiServiceDescription
   translation: "You can enjoy Internet access from the comfort of our spaces."
 
+- id: laundryServiceDescription
+  translation: "If you wish, we put our washing machine at your disposal to keep your clothes clean and scented."
+
 - id: gall1
   translation: "Front of the Hostal"
 

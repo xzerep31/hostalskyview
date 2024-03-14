@@ -12,4 +12,4 @@ wifi: "on"
 
 ### Room 2 Details 
 
-Double room __air-conditioned__, on the second floor of the hostel, __accommodated with two beds__, a __minibar with bottled water__ and a rack for your clothes. It also has a __private bathroom with a shower with hot water__, hairdryer and toiletries.
+Double room __air-conditioned__, on the second floor of the hostel, __accommodated with two beds__, a __minibar with bottled water__ and a rack for your clothes. It also has a __private bathroom with a shower with hot water__, hairdryer and toiletries. It has access to one of the interior patios of the house that serves as a terrace where you can enjoy the sun and the tranquility of the place.
