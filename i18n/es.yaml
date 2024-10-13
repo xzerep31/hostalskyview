@@ -1,0 +1,286 @@
+- id: Home
+  translation: "Inicio"
+
+- id: About
+  translation: "¿Quiénes Somos?"
+
+- id: Services
+  translation: "Servicios"
+
+- id: ourServices
+  translation: "Nuestros Servicios"
+
+- id: Rooms
+  translation: "Habitaciones"
+
+- id: Booking
+  translation: "Reserva"
+
+- id: contactUs
+  translation: "Contáctenos"
+
+- id: opinionUs
+  translation: "Opine sobre nosotros"
+
+- id: checkIn
+  translation: "Fecha de llegada"
+
+- id: checkOut
+  translation: "Fecha de salida"
+
+- id: Adults
+  translation: "Cantidad de Adultos"
+
+- id: Childs
+  translation: "Cantidad de Niños"
+
+- id: contactName
+  translation: "Tu nombre"
+
+- id: contactMail
+  translation: "Tu Correo"
+
+- id: bookNow
+  translation: "Reserva Ahora"
+
+- id: selectAroom
+  translation: "Selecciona una habitación"
+
+- id: specialRequest
+  translation: "Requerimientos especiales"
+
+- id: Room
+  translation: "Habitación"
+
+- id: Rooms
+  translation: "Habitaciones"
+
+- id: subject
+  translation: "Asunto"
+
+- id: leaveMessage
+  translation: "Deje un mensaje"
+
+- id: sendMessage
+  translation: "Enviar Mensaje"
+
+- id: ourRooms
+  translation: "Nuestras Habitaciones"
+
+- id: bookRoom
+  translation: "Reserva una habitación"
+
+- id: Dinner
+  translation: "Cena"
+
+- id: Breakfast
+  translation: "Desayuno"
+
+- id: airConditioner
+  translation: "Aire Acondicionado"
+
+- id: viewDetail
+  translation: "Detalles..."
+
+- id: aboutComment
+  translation: "La Villa de la Santísima Trinidad es la tercera Villa fundada por los españoles a su llegada, en 1492, a Cuba. Esta mezcla tradición, Historia y modernidad, además de exhibir las maravillas y bondades de la naturaleza en esta isla tropical. Nuestra casa hostal, <<Sky View>>, enclavada a pocos metros del centro vital de Trinidad, le garantiza el disfrute desde el primer momento. Nuestra casa hostal es una de las casas más distinguidas de nuestra ciudad, por su belleza y majestuosidad.
+
+Además de la comodidad y atención que podrás recibir en nuestra casa, estamos en un lugar espléndido, rodeado de centros comerciales, servicios y una variada oferta de otras atracciones turísticas. Unos metros más distantes quedan la Plaza Mayor y las antiguas mansiones y construcciones que otrora fueron las residencias de las familias más poderosas y acaudaladas de la villa, actualmente Museos que conservan importantes objetos que datan de los siglos XVIII y XIX.
+
+¿Y qué decir de las experiencias culinarias? Puede contar con nuestra cocina, o visitar algunos de los restaurantes más recomendados de la Villa, igualmente a pocos metros nuestro.
+
+En nuestra casa encontrarás confort y serenidad, acompañado de una de las mejores vistas de la ciudad. nuestros patios, terrazas y habitaciones convertirán tu estancia en un recuerdo placentero.
+
+En fin, nuestra mayor satisfacción es que Ud. se sienta como en casa disfrutando de nuestra compañía y de las maravillas de esta Ciudad Patrimonio de la Humanidad."
+
+- id: Wifi
+  translation: "Wifi"
+
+- id: Taxi
+  translation: "Taxi"
+
+- id: Bar
+  translation: "Bar"
+
+- id: Excursions
+  translation: "Excursiones"
+
+- id: OpenSpaces
+  translation: "Patios y Terrazas"
+
+- id: readMore
+  translation: "Leer Más ..."
+
+- id: 404Error
+  translation: "Error 404: Página no encontrada"
+
+- id: 404Message
+  translation: "Lo sentimos – esta página ya no está aquí"
+
+- id: 404NavHome
+  translation: "Ir a la página de inicio"
+
+- id: gallery
+  translation: "Galería de Fotos"
+
+- id: ourTeam
+  translation: "Nuestro equipo"
+
+- id: danceClass
+  translation: "Clases de baile"
+
+- id: laundryService
+  translation: "Servicio de lavandería"
+
+- id: welcomeTo
+  translation: "Bienvenido a "
+
+- id: Guests
+  translation: "Clientes"
+
+- id: Personal
+  translation: "Personal"
+
+- id: room1
+  translation: "Habitación 1"
+
+- id: room2
+  translation: "Habitación 2"
+
+- id: room3
+  translation: "Habitación 3"
+
+- id: room4
+  translation: "Habitación 4"
+
+- id: room5
+  translation: "Habitación 5"
+
+- id: room6
+  translation: "Habitación 6"
+
+- id: room7
+  translation: "Habitación 7"
+
+- id: barServiceDescription
+  translation: "Ofrecemos en nuestro bar, las tradicionales cervezas y rones típicos de nuestro país, así como otros tragos tradicionales de otras regiones. A su llegada tendrá un coctel de bienvenida."
+
+- id: danceClassServiceDescription
+  translation: "Aprenda a bailar los ritmos latinos desde nuestro salón. Expertos bailarines le enseñarán a mover el esqueleto."
+
+- id: dinnerServiceDescription
+  translation: "Le ofrecemos el desayuno en nuestro hostal. Además le brindamos las facilidades para una parrillada en nuestro patio. También puede cenar con nosotros."
+
+- id: excursionsServiceDescription
+  translation: "Le facilitamos la posibilidad de realizar excursiones como senderismo, montar a caballo, alquiler de bicicletas y alquiler de coches."
+
+- id: openSpaceServiceDescription
+  translation: "A su disposición están los patios y terrazas de nuestro hostal, donde puede disfrutar de las vistas, tomando el sol o degustando un delicioso café."
+
+- id: taxiServiceDescription
+  translation: "Le facilitamos la gestión de taxis para su desplazamiento, bien sea a excursiones como hacia el aeropuerto."
+
+- id: wifiServiceDescription
+  translation: "Puede disfrutar de acceso a Internet desde la comodidad de nuestros espacios."
+
+- id: laundryServiceDescription
+  translation: "Si lo desea, ponemos a su disposición nuestra máquina de lavar para que mantenga su ropa limpia y perfumada."
+
+- id: gall1
+  translation: "Fachada del Hostal"
+
+- id: gall2
+  translation: "Salón de recibimiento"
+
+- id: gall3
+  translation: "Foto 1 | Bar"
+
+- id: gall4
+  translation: "Foto 2 | Bar"
+
+- id: gall5
+  translation: "Foto 3 | Bar"
+
+- id: gall6
+  translation: "Terraza | Planta Baja"
+
+- id: gall7
+  translation: "Foto 1 | Habitación 6"
+
+- id: gall8
+  translation: "Foto 2 | Habitación 6"
+
+- id: gall9
+  translation: "Foto 3 | Habitación 6"
+
+- id: gall10
+  translation: "Foto 4 | Habitación 6"
+
+- id: gall11
+  translation: "Terraza | Planta Baja"
+
+- id: gall12
+  translation: "Terraza | Planta Baja"
+
+- id: gall13
+  translation: "Foto 1 | Habitación 5"
+
+- id: gall14
+  translation: "Foto 2 | Habitación 5"
+
+- id: gall15
+  translation: "Baño | Habitación 5"
+
+- id: gall16
+  translation: "Escalera a la segunda planta"
+
+- id: gall17
+  translation: "Sala de estar segunda planta"
+
+- id: gall18
+  translation: "Sala de estar segunda planta"
+
+- id: gall19
+  translation: "Terraza | Segunda Planta"
+
+- id: gall20
+  translation: "Terraza | Segunda Planta"
+
+- id: gall21
+  translation: "Foto 1 | Habitación 2"
+
+- id: gall22
+  translation: "Foto 2 | Habitación 2"
+
+- id: gall23
+  translation: "Foto 3 | Habitación 2"
+
+- id: gall24
+  translation: "Terraza | Segunda Planta"
+
+- id: gall25
+  translation: "Foto 1 | Habitación 3"
+
+- id: gall26
+  translation: "Foto 2 | Habitación 3"
+
+- id: gall27
+  translation: "Foto 1 | Habitación 1"
+
+- id: gall28
+  translation: "Foto 2 | Habitación 1"
+
+- id: gall29
+  translation: "Foto 1 | Habitación 7"
+
+- id: gall30
+  translation: "Foto 2 | Habitación 7"
+
+- id: gall31
+  translation: "Terraza | Habitación 1"
+
+- id: gall32
+  translation: "Terraza | Habitación 2"
+
+- id: gall33
+  translation: "Terraza | Habitación 3"

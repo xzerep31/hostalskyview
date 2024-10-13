@@ -1,0 +1,295 @@
+- id: Home
+  translation: "Home"
+
+- id: About
+  translation: "Who we are?"
+
+- id: Services
+  translation: "Services"
+
+- id: ourServices
+  translation: "Our Services"
+
+- id: Rooms
+  translation: "Rooms"
+
+- id: Booking
+  translation: "Booking"
+
+- id: contactUs
+  translation: "Contact Us"
+
+- id: opinionUs
+  translation: "Your Opinions"
+
+- id: checkIn
+  translation: "Date Arrival"
+
+- id: checkOut
+  translation: "Date End"
+
+- id: Adults
+  translation: "Adults"
+
+- id: Childs
+  translation: "Childs"
+
+- id: contactName
+  translation: "Your Name"
+
+- id: contactMail
+  translation: "Your Email"
+
+- id: bookNow
+  translation: "Booking Now"
+
+- id: selectAroom
+  translation: "Select a room"
+
+- id: specialRequest
+  translation: "Special Requirements"
+
+- id: Room
+  translation: "Room"
+
+- id: Rooms
+  translation: "Rooms"
+
+- id: subject
+  translation: "Subject"
+
+- id: leaveMessage
+  translation: "leave a Message"
+
+- id: sendMessage
+  translation: "Send Message"
+
+- id: ourRooms
+  translation: "Our Rooms"
+
+- id: bookRoom
+  translation: "Book a Room"
+
+- id: Dinner
+  translation: "Dinner"
+
+- id: Breakfast
+  translation: "Breakfast"
+
+- id: airConditioner
+  translation: "Air Conditioner"
+
+- id: viewDetail
+  translation: "Details..."
+
+- id: aboutComment
+  translation: "La Villa de la Santísima Trinidad is the third Village founded by the Spanish Conquerors after their arrival in 1492 to Cuba. In this city, there is a mix of tradition, History and modernity, as well as a great display of the wonders and benefits of nature on this tropical island. Our hostel, <<Sky View>>, located a few meters from the center of Trinidad, guarantees your enjoyment from the very beginning. Our hostel is one of the most distinguished houses in the city due to its beauty and majesty.
+
+In addition to the comfort and attention that you can find in our house, it is located in a splendid place, surrounded by shopping centers, services and several tourist attractions. A few blocks further away are the Plaza Mayor Square and the antique mansions and buildings, which were once the residences of the most powerful and wealthy families in the city; nowadays Museums that preserve and show objects dating from the 18th and 19th centuries. 
+
+Ah! The culinary experiences! You can enjoy of our cuisine, or you can visit, just a few meters from us, some of the most recommended restaurants in the city. 
+
+In our house you will find comfort and serenity, accompanied by one of the greatest views in the city. Our patios, terraces and rooms will turn your stay into a pleasant memory. 
+
+In short, our greatest satisfaction is that you feel at home enjoying our company and the wonders of this World  Heritage City."
+
+- id: Wifi
+  translation: "Wifi"
+
+- id: Taxi
+  translation: "Taxi"
+
+- id: Bar
+  translation: "Bar"
+
+- id: Excursions
+  translation: "Excursions"
+
+- id: OpenSpaces
+  translation: "Patios & Terraces"
+
+- id: readMore
+  translation: "Read more ..."
+
+- id: 404Error
+  translation: "Error 404: Page not found"
+
+- id: 404Message
+  translation: "Sorry – this page not here"
+
+- id: 404NavHome
+  translation: "Go to the home page"
+
+- id: gallery
+  translation: "Picture Gallery"
+
+- id: ourTeam
+  translation: "Our Team"
+
+- id: danceClass
+  translation: "Dance Class"
+
+- id: laundryService
+  translation: "Laundry Services"
+
+- id: Inglés
+  translation: "English"
+
+- id: Español
+  translation: "Spanish"
+
+- id: welcomeTo
+  translation: "Welcome to "
+
+- id: Guests
+  translation: "Guests"
+
+- id: Personal
+  translation: "Staff"
+
+- id: room1
+  translation: "Room 1"
+
+- id: room2
+  translation: "Room 2"
+
+- id: room3
+  translation: "Room 3"
+
+- id: room4
+  translation: "Room 4"
+
+- id: room5
+  translation: "Room 5"
+
+- id: room6
+  translation: "Room 6"
+
+- id: room7
+  translation: "Room 7"
+
+- id: barServiceDescription
+  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+
+- id: danceClassServiceDescription
+  translation: "Learn to dance Latin rhythms from our living room. Expert dancers will teach you how to move your skeleton."
+
+- id: dinnerServiceDescription
+  translation: "We offer you breakfast in our hostel. We also provide you with the facilities for a barbecue in our patio. You can also dine with us."
+
+- id: excursionsServiceDescription
+  translation: "We provide you with the possibility of excursions such as hiking, horse riding, bicycle rental and car rental."
+
+- id: laundryServiceDescription
+  translation: "We offer in our bar the traditional beers and rums typical of our country, as well as other traditional drinks from other regions. Upon arrival you will have a welcome cocktail."
+
+- id: openSpaceServiceDescription
+  translation: "At your disposal are the patios and terraces of our hostel, where you can enjoy the views, sunbathing or tasting a delicious coffee."
+
+- id: taxiServiceDescription
+  translation: "We make it easier for you to arrange taxis for your travel, whether for excursions or to the airport."
+
+- id: wifiServiceDescription
+  translation: "You can enjoy Internet access from the comfort of our spaces."
+
+- id: laundryServiceDescription
+  translation: "If you wish, we put our washing machine at your disposal to keep your clothes clean and scented."
+
+- id: gall1
+  translation: "Front of the Hostal"
+
+- id: gall2
+  translation: "Reception room"
+
+- id: gall3
+  translation: "Photo 1 | Bar"
+
+- id: gall4
+  translation: "Photo 2 | Bar"
+
+- id: gall5
+  translation: "Photo 3 | Bar"
+
+- id: gall6
+  translation: "Terrace | Low level"
+
+- id: gall7
+  translation: "Photo 1 | Room 6"
+
+- id: gall8
+  translation: "Photo 2 | Room 6"
+
+- id: gall9
+  translation: "Photo 3 | Room 6"
+
+- id: gall10
+  translation: "Photo 4 | Room 6"
+
+- id: gall11
+  translation: "Terrace | Low level"
+
+- id: gall12
+  translation: "Terrace | Low level"
+
+- id: gall13
+  translation: "Photo 1 | Room 5"
+
+- id: gall14
+  translation: "Photo 2 | Room 5"
+
+- id: gall15
+  translation: "Bathroom | Room 5"
+
+- id: gall16
+  translation: "Staircase to the second floor"
+
+- id: gall17
+  translation: "Second floor living room"
+
+- id: gall18
+  translation: "Second floor living room"
+
+- id: gall19
+  translation: "Terrace | Second floor"
+
+- id: gall20
+  translation: "Terrace | Second floor"
+
+- id: gall21
+  translation: "Photo 1 | Room 2"
+
+- id: gall22
+  translation: "Photo 2 | Room 2"
+
+- id: gall23
+  translation: "Photo 3 | Room 2"
+
+- id: gall24
+  translation: "Terrace | Second floor"
+
+- id: gall25
+  translation: "Photo 1 | Room 3"
+
+- id: gall26
+  translation: "Photo 2 | Room 3"
+
+- id: gall27
+  translation: "Photo 1 | Room 1"
+
+- id: gall28
+  translation: "Photo 2 | Room 1"
+
+- id: gall29
+  translation: "Photo 1 | Room 7"
+
+- id: gall30
+  translation: "Photo 2 | Room 7"
+
+- id: gall31
+  translation: "Terrace | Room 1"
+
+- id: gall32
+  translation: "Terrace | Room 2"
+
+- id: gall33
+  translation: "Terrace | Room 3"

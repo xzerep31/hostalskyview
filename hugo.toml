@@ -1,0 +1,112 @@
+baseURL = 'https://hostalskyview.com/'
+# baseURL = 'https://xzerep31.github.io/hostalskyview'
+languageCode = 'en-us'
+title = 'Sky View'
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = true
+paginate = 20
+canonifyUrls = true
+
+[params]
+    defaultDescription = ""
+    defaultKeywords = ["Hostal", "Bar", "Sky View", "Room", "Rent Room", "Habitación", "Renta", "Descanso"]
+    author = "Pedro Victor Navarrete Alejo"
+    info = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+
+    address = "120, Calle Borrell, entre calle Santo Domingo y calle San Procopio, Trinidad 62600"
+    phone  = "(+53) 5281-7286"
+    phone2 = "(+53) 5391-7032"
+    email = "hostalskyview@gmail.com"
+
+    formsubmit_action = "https://formsubmit.co/hostalskyview@gmail.com"
+
+[languages]
+    [languages.es]
+        contentDir = 'content/es'
+        languageName = "Es"
+        weight = 1
+        [languages.es.params]
+            flag = 'fi fi-es fis'
+        
+    [languages.en]
+        contentDir = 'content/en'
+        languageName = "En"
+        weight = 2
+        [languages.en.params]
+            flag = 'fi fi-sh fis'
+
+
+# Social links
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 1
+    url = "https://www.facebook.com/profile.php?id=61555910130082"
+[[params.social]]
+    name = "Instagram"
+    icon = "fab fa-instagram"
+    weight = 2
+    url = "https://www.instagram.com/skyview2421/"
+[[params.social]]
+    name = "Gmail"
+    icon = "fa fa-envelope"
+    weight = 3
+    url = "mailto:hostalskyview@gmail.com"
+[[params.social]]
+    name = "TripAdvisor"
+    icon = "fab fa-tripadvisor"
+    weight = 4
+    url = "https://www.tripadvisor.com/Hotel_Review-g285731-d12176965-Reviews-Hostal_Sky_View_TRINIDAD-Trinidad_Sancti_Spiritus_Province_Cuba.html?m=19905"
+
+# Menu links
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url  = "/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Rooms"
+    weight = 4
+    url = "/rooms/"
+[[menu.main]]
+    name = "Booking"
+    weight = 5
+    url = "/booking/"
+[[menu.main]]
+    name = "gallery"
+    weight = 6
+    url = "/gallery/"
+[[menu.main]]
+    name = "contactUs"
+    weight = 7
+    url = "/#footer"
+
+# Rooms Details
+[params.rooms]
+    room1 = "ok"
+    room2 = "ok"
+    room3 = "ok"
+    room4 = "none"
+    room5 = "ok"
+    room6 = "ok"
+    room7 = "ok"
+    bar = "ok"
+    gallery = "ok"
+
+# Services
+[params.services]
+    enable = true
+
+# Staff
+[params.staff]
+    enable = true

@@ -1,0 +1,65 @@
+<div id="about">
+    {{ if .IsHome }}
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h6 class="section-title text-start text-primary text-uppercase">{{ i18n "About" }}</h6>
+                        <h1 class="mb-4">{{ i18n "welcomeTo" }}<span class="text-primary text-uppercase">Sky View</span></h1>
+                        <p class="mb-4 about">{{ i18n "aboutComment" }}</p>
+                        <div class="row g-3 pb-4">
+                        </div>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="{{ relLangURL "/about" }}">{{ i18n "readMore" }} </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="{{ "imgs/about-01.jpg" | relURL }}" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="{{ "imgs/about-02.jpg" | relURL }}">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="{{ "imgs/about-03.jpg" | relURL }}">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="{{ "imgs/about-04.jpg" | relURL }}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{ else }}
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h6 class="section-title text-start text-primary text-uppercase">{{ i18n "About" }}</h6>
+                        <h1 class="mb-4">{{ i18n "welcomeTo" }} <span class="text-primary text-uppercase">Sky View</span></h1>
+                        <p class="mb-4 about">{{ i18n "aboutComment" }}</p>
+                        <div class="row g-3 pb-4">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="{{ "imgs/about-01.jpg" | relURL }}" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="{{ "imgs/about-02.jpg" | relURL }}">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="{{ "imgs/about-03.jpg" | relURL }}">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="{{ "imgs/about-04.jpg" | relURL }}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ partial "teams" .}}
+        </div>
+    {{ end }}
+</div>

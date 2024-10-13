@@ -1,0 +1,4 @@
+weight: 8
+icon: "fa fa-wifi fa-3x text-primary"
+description: "wifiServiceDescription"
+name: "Wifi"
