@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rooms on Sky View</title>
-    <link>http://localhost:1313/en/rooms/</link>
+    <link>https://hostalskyview.com/en/rooms/</link>
     <description>Recent content in Rooms on Sky View</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Jan 2024 14:37:14 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/rooms/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hostalskyview.com/en/rooms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>room1</title>
-      <link>http://localhost:1313/en/rooms/room1/</link>
+      <link>https://hostalskyview.com/en/rooms/room1/</link>
       <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
-      <guid>http://localhost:1313/en/rooms/room1/</guid>
+      <guid>https://hostalskyview.com/en/rooms/room1/</guid>
       <description>&lt;h3 id=&#34;room-1-details&#34;&gt;Room 1 Details&lt;/h3&gt;&#xA;&lt;p&gt;Double room &lt;strong&gt;air-conditioned&lt;/strong&gt;, on the second floor of the hostel, &lt;strong&gt;accommodated with two beds&lt;/strong&gt;, a &lt;strong&gt;minibar with bottled water&lt;/strong&gt; and a rack for your clothes. It also has a &lt;strong&gt;private bathroom with a shower with hot water&lt;/strong&gt;, hairdryer and toiletries. It has access to a small balcony that acts as a terrace with views of the outside of the house.&lt;/p&gt;</description>
     </item>
     <item>
       <title>room2</title>
-      <link>http://localhost:1313/en/rooms/room2/</link>
+      <link>https://hostalskyview.com/en/rooms/room2/</link>
       <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
-      <guid>http://localhost:1313/en/rooms/room2/</guid>
+      <guid>https://hostalskyview.com/en/rooms/room2/</guid>
       <description>&lt;h3 id=&#34;room-2-details&#34;&gt;Room 2 Details&lt;/h3&gt;&#xA;&lt;p&gt;Double room &lt;strong&gt;air-conditioned&lt;/strong&gt;, on the second floor of the hostel, &lt;strong&gt;accommodated with two beds&lt;/strong&gt;, a &lt;strong&gt;minibar with bottled water&lt;/strong&gt; and a rack for your clothes. It also has a &lt;strong&gt;private bathroom with a shower with hot water&lt;/strong&gt;, hairdryer and toiletries. It has access to one of the interior patios of the house that serves as a terrace where you can enjoy the sun and the tranquility of the place.&lt;/p&gt;</description>
     </item>
     <item>
       <title>room3</title>
-      <link>http://localhost:1313/en/rooms/room3/</link>
+      <link>https://hostalskyview.com/en/rooms/room3/</link>
       <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
-      <guid>http://localhost:1313/en/rooms/room3/</guid>
+      <guid>https://hostalskyview.com/en/rooms/room3/</guid>
       <description>&lt;h3 id=&#34;room-3-details&#34;&gt;Room 3 Details&lt;/h3&gt;&#xA;&lt;p&gt;Double room &lt;strong&gt;air-conditioned&lt;/strong&gt;, on the second floor of the hostel, &lt;strong&gt;accommodated with two beds&lt;/strong&gt;, a &lt;strong&gt;minibar with bottled water&lt;/strong&gt; and a rack for your clothes. It also has a &lt;strong&gt;private bathroom with a shower with hot water&lt;/strong&gt;, hairdryer and toiletries. It has access to a small balcony that acts as a terrace with views of the outside of the house.&lt;/p&gt;</description>
     </item>
     <item>
       <title>room5</title>
-      <link>http://localhost:1313/en/rooms/room5/</link>
+      <link>https://hostalskyview.com/en/rooms/room5/</link>
       <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
-      <guid>http://localhost:1313/en/rooms/room5/</guid>
+      <guid>https://hostalskyview.com/en/rooms/room5/</guid>
       <description>&lt;h3 id=&#34;room-5-details&#34;&gt;Room 5 Details&lt;/h3&gt;&#xA;&lt;p&gt;Double room &lt;strong&gt;air-conditioned&lt;/strong&gt;, on the ground floor, at the end of the main patio of the hostel, &lt;strong&gt;accommodated with two beds&lt;/strong&gt;, &lt;strong&gt;minibar with bottled water&lt;/strong&gt;, a shelf for your clothes. It also has a &lt;strong&gt;private bathroom with a shower with hot water&lt;/strong&gt;, hairdryer and toiletries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>room6</title>
-      <link>http://localhost:1313/en/rooms/room6/</link>
+      <link>https://hostalskyview.com/en/rooms/room6/</link>
       <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
-      <guid>http://localhost:1313/en/rooms/room6/</guid>
+      <guid>https://hostalskyview.com/en/rooms/room6/</guid>
       <description>&lt;h3 id=&#34;room-6-details&#34;&gt;Room 6 Details&lt;/h3&gt;&#xA;&lt;p&gt;Double room &lt;strong&gt;air-conditioned&lt;/strong&gt;, on the ground floor, at the end of the main patio of the hostel, &lt;strong&gt;accommodated with three beds&lt;/strong&gt;, &lt;strong&gt;minibar with bottled water&lt;/strong&gt;, a shelf for your clothes. It also has a &lt;strong&gt;private bathroom with a shower with hot water&lt;/strong&gt;, hairdryer and toiletries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>room7</title>
-      <link>http://localhost:1313/en/rooms/room7/</link>
+      <link>https://hostalskyview.com/en/rooms/room7/</link>
       <pubDate>Thu, 25 Jan 2024 14:37:14 -0500</pubDate>
-      <guid>http://localhost:1313/en/rooms/room7/</guid>
+      <guid>https://hostalskyview.com/en/rooms/room7/</guid>
       <description>&lt;h3 id=&#34;room-7-details&#34;&gt;Room 7 Details&lt;/h3&gt;&#xA;&lt;p&gt;Double room &lt;strong&gt;air-conditioned&lt;/strong&gt;, on the ground floor, at the end of the main patio of the hostel, &lt;strong&gt;accommodated with two beds&lt;/strong&gt;, &lt;strong&gt;minibar with bottled water&lt;/strong&gt;, a shelf for your clothes. It also has a &lt;strong&gt;private bathroom with a shower with hot water&lt;/strong&gt;, hairdryer and toiletries.&lt;/p&gt;</description>
     </item>
   </channel>

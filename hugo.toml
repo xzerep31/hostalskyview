@@ -1,5 +1,5 @@
-baseURL = 'https://hostalskyview.com/'
-# baseURL = 'https://xzerep31.github.io/hostalskyview'
+# baseURL = 'https://hostalskyview.com/'
+baseURL = 'https://xzerep31.github.io/hostalskyview'
 languageCode = 'en-us'
 title = 'Sky View'
 defaultContentLanguage = 'es'
@@ -10,7 +10,7 @@ canonifyUrls = true
 [params]
     defaultDescription = ""
     defaultKeywords = ["Hostal", "Bar", "Sky View", "Room", "Rent Room", "Habitación", "Renta", "Descanso"]
-    author = "Pedro Victor Navarrete Alejo"
+    author = "Ing. Pedro Victor Navarrete Alejo"
     info = ""
 
     hidecredits = false
